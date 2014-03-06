@@ -23,28 +23,13 @@
 		<script type="text/javascript" src="http://westonthayer.com/js/lightbox.js"></script>
 	</head>
 	<body>
+        <div id="header-bg">
+            <div class="oval-base" id="oval-1"></div>
+            <div class="oval-base" id="oval-2"></div>
+            <div class="oval-base" id="oval-3"></div>
+        </div>
 		<div id="header">
-			<a href="http://westonthayer.com">
-				<h1>
-					<span id="title">
-						<span id="title-1">W</span>
-						<span id="title-2">E</span>
-						<span id="title-3">S</span>
-						<span id="title-4">T</span>
-						<span id="title-5">O</span>
-						<span id="title-6">N</span>
-					</span>
-					<div class="clearfix"></div>
-					<span id="title-lower">
-						<span id="title-lower-1">T</span>
-						<span id="title-lower-2">H</span>
-						<span id="title-lower-3">A</span>
-						<span id="title-lower-4">Y</span>
-						<span id="title-lower-5">E</span>
-						<span id="title-lower-6">R</span>
-					</span>
-				</h1>
-			</a>
+            <h1><a href="http://westonthayer.com">Weston Thayer</a></h1>
 			<ul id="menu">
 				<li><a href="http://westonthayer.com" class="item1">home<span></span></a></li>
 				<li><a href="http://cryclops.com" class="item2">blog<span></span></a></li>

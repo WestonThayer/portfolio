@@ -35,117 +35,75 @@ strong {
 	padding: 10px 0 10px 0;
 }
 
+/* Header Background */
+
+#header-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -280px;
+    height: 450px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+.oval-base {
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    left: 50%;
+}
+
+#oval-1 {
+    width: 1800px;
+    height: 400px;
+    border-color: #fafafa;
+    border-radius: 1800px / 400px;
+    margin-left: -900px;
+}
+
+#oval-2 {
+    width: 1900px;
+    height: 400px;
+    border-color: #eeeeee;
+    border-radius: 1900px / 400px;
+    margin-left: -950px;
+    margin-top: 10px;
+}
+
+#oval-3 {
+    width: 2000px;
+    height: 400px;
+    border-color: #e3e3e3;
+    border-radius: 2000px / 400px;
+    margin-left: -1000px;
+    margin-top: 20px;
+}
+
 /* Header */
 
 #header {
-	padding: 0 135px 5px 135px;
-	background-image: url('../images/pole-bg.png');
-	background-attachment: initial;
-	background-position: 50% 0;
+	padding: 0 135px 50px 135px;
+    color: #888888;
 }
 
 #header h1 {
 	float: left;
-	font-size: 72px;
-	color: #404040;
+	font-size: 28px;
+    margin: 40px 0 0 0;
 }
 
-/* For the funky title */
+#header h1 a {
+    color: #888888;
+}
+
+/* For the funky title 
 
 #header #title {
 	display: block;
 	float: left;
-}
-
-#header #title-1 {
-	display: inline-block;
-	float: left;
-	font-size: 84px;
-}
-
-#header #title-2 {
-	display: inline-block;
-	float: left;
-	font-size: 38px;
-	margin: 30px 0 0 -10px;
-}
-
-#header #title-3 {
-	display: inline-block;
-	float: left;
-	font-size: 72px;
-	margin: 15px 0 0 -2px;
-}
-
-#header #title-4 {
-	display: inline-block;
-	float: left;
-	font-size: 52px;
-	margin: 5px 0 0 -10px;
-}
-
-#header #title-5 {
-	display: inline-block;
-	float: left;
-	font-size: 38px;
-	margin: 20px 0 0 -10px;
-}
-
-#header #title-6 {
-	display: inline-block;
-	float: left;
-	font-size: 72px;
-	margin: 5px 0 0 -10px;
-}
-
-/* Lower title */
-
-#header #title-lower {
-	display: block;
-	float: left;
-	margin: -25px 0 0 40px;
-}
-
-#header #title-lower-1 {
-	display: block;
-	float: left;
-	font-size: 72px;
-}
-
-#header #title-lower-2 {
-	display: inline-block;
-	float: left;
-	font-size: 32px;
-	margin: 25px 0 0 -15px;
-}
-
-#header #title-lower-3 {
-	display: inline-block;
-	float: left;
-	font-size: 68px;
-	margin: 10px 0 0 -5px;
-}
-
-#header #title-lower-4 {
-	display: inline-block;
-	float: left;
-	font-size: 62px;
-	margin: 5px 0 0 -10px;
-}
-
-#header #title-lower-5 {
-	display: inline-block;
-	float: left;
-	font-size: 48px;
-	margin: 20px 0 0 -5px;
-}
-
-#header #title-lower-6 {
-	display: inline-block;
-	float: left;
-	font-size: 48px;
-	margin: 10px 0 0 -5px;
-}
+    margin: 40px 0 0 0;
+}*/
 
 /* Menu items */
 
@@ -234,10 +192,6 @@ strong {
 	padding: 50px 135px 5px 135px;
 	line-height: 150%;
 	font-size: 12px;
-	background-image: url('../images/pole-rep.png');
-	background-repeat: repeat-y;
-	background-attachment: initial;
-	background-position: 50% 0;
 }
 
 #content h3 {
