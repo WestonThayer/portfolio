@@ -139,7 +139,7 @@ strong {
 }
 
 #menu li a.item1 span {
-	background-position: 0px 0px;
+	background-position: 0px 1px;
 }
 
 #menu li a:hover.item1 span {
@@ -147,7 +147,7 @@ strong {
 }
 
 #menu li a.item2 span {
-	background-position: 0px -132px;
+	background-position: 0px -131px;
 }
 
 #menu li a:hover.item2 span {
