@@ -287,15 +287,12 @@ strong {
 	text-align: right;
 	margin: 0 0 0 0;
 	padding: 100px 135px 100px 135px;
-	background: url('../images/bottom-bg.png');
-	background-repeat: no-repeat;
-	background-attachment: initial;
-	background-position: 50% 0;
+    color: #888888
 }
 
 #footer #text {
 	padding: 25px 0 25px 0;
-	border-top: 1px solid #404040;
+	border-top: 1px solid #888888;
 }
 
 #footer p {
