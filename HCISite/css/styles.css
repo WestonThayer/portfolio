@@ -1,0 +1,198 @@
+/* Styles with site-wide scope */
+
+/* Resetting expected definitions to ensure compatibility across browsers */
+html, body, div, span, h1, h2, h3, h4, a, em, strong, img, ol, ul, li, form, label, p, ins, input:focus {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+
+/* Overriding the body tag
+ * Foreground: black
+ * Background: white w/ image, centered at top, static
+ */
+body {
+	font: normal 10pt "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
+	color: black;
+	background-color: white;
+	background-image: url('../images/stripe.png');
+}
+
+/* Link behavior
+ * all links except hovered behave the same: green
+ */
+a, a:link, a:visited, a:active {
+	color: #000099;
+}
+
+/* Hovering on links turns them darker blue */
+a:hover {
+	color: #0099FF;
+}
+
+/* A nice spacing element */
+.spacer {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+/* XHTML bold definition */
+strong {
+	font-weight: bold;
+}
+
+/* A container for all page elements */
+#container {
+	width: 760px;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left;
+}
+
+/* The header */
+	#header {
+		height: 145px;
+		padding-left: 100px;
+		position: relative;
+	}
+	/* The contact box on every page */
+	#contactBox {
+		float: right;
+		width: auto;
+		background-color: white;
+		font-size: 12px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		height: 20px;
+		border: 1px solid black;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-o-border-radius: 8px;
+	}
+	
+	/*Click to go home */
+	#clickIndex {
+		position: absolute;
+		left: 0px;
+		top: 25px;
+		height: 80px;
+		width: 330px;
+		border: 3px solid black;
+		border-radius: 8px;
+		-moz-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-o-border-radius: 8px;
+	}
+	
+	/* The waveform logo */
+	#waveform {
+		position: absolute;
+		left: 350px;
+		z-index: -1;
+	}
+
+	/* The main header menu */
+		/* Positioning of the menu */
+		#mainMenu {
+			float: left;
+			padding-top: 75px;
+			padding-left: 235px;
+		}
+		/* h1 text settings */
+		#mainMenu h1 {
+			font-size: 20px;
+			font-weight: bold;
+		}
+		/* Link settings */
+		#mainMenu a, #mainMenu a:link, #mainMenu a:visited, #mainMenu a:active {
+			color: black;
+		}
+		#mainMenu a:hover {
+			color: #0099FF;
+		}
+		/* No bullet's on this list */
+		#mainMenu ul {
+			list-style: none;
+		}
+		/* Sideways list, spaced */
+		#mainMenu ul li {
+			float: right;
+			padding-right: 25px;
+		}
+		/* For the dropdown */
+			#mainMenu ul li a {
+				display: block;
+				width: 60px;
+				color: blue;
+				text-align: center;
+			}
+			#mainMenu ul div {
+				position: absolute;
+				visibility: hidden;
+				background: white;
+			}
+			#mainMenu ul div a {
+				position: relative;
+				display: block;
+				width: auto;
+				white-space: nowrap;
+				font: normal 10pt "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
+			}
+			
+/* The body for every page */
+	#infoBody {
+		padding: 0px 5px 5px 5px;
+		background-color: #B8B8B8;
+		border: 20px solid #B8B8B8;
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+		-o-border-radius: 12px;
+	}
+
+	#infoBody h1 {
+		font: normal 20pt "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
+		font-weight: bold;
+		padding: 10px 0 10px 0;
+	}
+	
+	#infoBody h2 {
+		font: normal 12pt "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
+		font-weight: bold;
+		padding: 10px 0 10px 0;
+	}
+	
+	#infoBody h3 {
+		font-weight: bold;
+	}
+
+	#infoBody ul {
+		padding-left: 20px;
+	}
+
+	#infoBody ul li {
+		padding: 5px 0 5px 0;
+	}
+
+	#infoBody ul li ul li {
+		padding: 2px 0 2px 0;
+	}
+	
+	#whiteBox {
+		background-color: white;
+		border: 20px solid white;
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+		-o-border-radius: 12px;
+	}

@@ -1,0 +1,355 @@
+/* About Styles */
+
+/* Global */
+
+body {
+	font-family: 'IM Fell DW Pica SC', serif;
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1230px;
+}
+
+a {
+	color: #0018A1;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.code {
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+/* Header */
+
+#header {
+	padding: 0 135px 5px 135px;
+	background-image: url('../images/pole-bg.png');
+	background-attachment: initial;
+	background-position: 50% 0;
+}
+
+#header h1 {
+	float: left;
+	font-size: 72px;
+	color: #404040;
+}
+
+/* For the funky title */
+
+#header #title {
+	display: block;
+	float: left;
+}
+
+#header #title-1 {
+	display: inline-block;
+	float: left;
+	font-size: 84px;
+}
+
+#header #title-2 {
+	display: inline-block;
+	float: left;
+	font-size: 38px;
+	margin: 30px 0 0 -10px;
+}
+
+#header #title-3 {
+	display: inline-block;
+	float: left;
+	font-size: 72px;
+	margin: 15px 0 0 -2px;
+}
+
+#header #title-4 {
+	display: inline-block;
+	float: left;
+	font-size: 52px;
+	margin: 5px 0 0 -10px;
+}
+
+#header #title-5 {
+	display: inline-block;
+	float: left;
+	font-size: 38px;
+	margin: 20px 0 0 -10px;
+}
+
+#header #title-6 {
+	display: inline-block;
+	float: left;
+	font-size: 72px;
+	margin: 5px 0 0 -10px;
+}
+
+/* Lower title */
+
+#header #title-lower {
+	display: block;
+	float: left;
+	margin: -25px 0 0 40px;
+}
+
+#header #title-lower-1 {
+	display: block;
+	float: left;
+	font-size: 72px;
+}
+
+#header #title-lower-2 {
+	display: inline-block;
+	float: left;
+	font-size: 32px;
+	margin: 25px 0 0 -15px;
+}
+
+#header #title-lower-3 {
+	display: inline-block;
+	float: left;
+	font-size: 68px;
+	margin: 10px 0 0 -5px;
+}
+
+#header #title-lower-4 {
+	display: inline-block;
+	float: left;
+	font-size: 62px;
+	margin: 5px 0 0 -10px;
+}
+
+#header #title-lower-5 {
+	display: inline-block;
+	float: left;
+	font-size: 48px;
+	margin: 20px 0 0 -5px;
+}
+
+#header #title-lower-6 {
+	display: inline-block;
+	float: left;
+	font-size: 48px;
+	margin: 10px 0 0 -5px;
+}
+
+/* Menu items */
+
+#menu {
+	float: left;
+	position: relative;
+	top: 80px;
+	left: 55px;
+}
+
+#menu li {
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+}
+
+#menu li a {
+	display: block;
+	color: #888;
+}
+
+#menu li a:hover {
+	color: black;
+}
+
+#menu li a span {
+	display: block;
+	height: 100px;
+	width: 60px;
+	background-image: url('../images/bird-menu-sprite.png');
+	background-repeat: no-repeat;
+}
+
+#menu li a.item1 span {
+	background-position: 0px 0px;
+}
+
+#menu li a:hover.item1 span {
+	background-position: 0px -100px;
+}
+
+#menu li a.item2 span {
+	background-position: 0px -200px;
+}
+
+#menu li a:hover.item2 span {
+	background-position: 0px -300px;
+}
+
+#menu li a.item3 span {
+	background-position: 0px -400px;
+}
+
+#menu li a:hover.item3 span {
+	background-position: 0px -500px;
+}
+
+/* Bird logo */
+
+#header #logo a {
+	float: right;
+	width: 105px;
+	height: 75px;
+	position: relative;
+	top: 40px;
+	left: -75px;
+	background: url('../images/bird-sprite.png');
+	background-repeat: no-repeat;
+}
+
+#header #logo a:hover {
+	background-position: 0px -75px;
+}
+
+#header #sub-title {
+	float: right;
+	text-align: center;
+	margin: 40px 0px 0 0;
+}
+
+/* Content */
+
+#content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 0 0;
+	padding: 50px 135px 5px 135px;
+	line-height: 150%;
+	font-size: 12px;
+	background-image: url('../images/pole-rep.png');
+	background-repeat: repeat-y;
+	background-attachment: initial;
+	background-position: 50% 0;
+}
+
+#content h3 {
+	font-weight: bold;
+}
+
+#content h4 {
+	font-style: italic;
+	color: #888;
+}
+
+#content ul {
+	list-style-type: disc;
+	margin: 5px 0 5px 40px;
+}
+
+#content a img {
+	border: 1px solid black;
+	padding: 1px;
+	margin: 0 0 10px 0;
+}
+
+#content a:hover img {
+	border: 2px solid black;
+	padding: 0;
+}
+
+#content #left-bar {
+	float: left;
+	width: 240px;
+	text-align: justify;
+}
+
+/* Project pages */
+
+#content #right-bar {
+	float: right;
+	width: 690px;
+}
+
+/* Text on left, large pics on right setup */
+#content #block {
+	width: 960px;
+	margin-bottom: 25px;
+}
+
+#content #block #left-box {
+	width: 240px;
+	float: left;
+	text-align: justify;
+}
+
+#content #block #right-box {
+	width: 690px;
+	float: right;
+	margin-left: 30px;
+}
+
+#content #block #right-box p {
+	font-size: 10px;
+	text-align: center;
+}
+
+/* Homepage right 75% */
+
+#content #grid {
+	float: right;
+	width: 720px;
+    height: 400px;
+    overflow: auto;
+}
+
+#content #grid .grid-row {
+	float: right;
+	width: 720px;
+}
+
+#content #grid .grid-row .grid-item {
+	display: inline-block;
+	margin: 0 0 34px 34px;
+}
+
+#content #grid .grid-row .grid-item .grid-item-description {
+	font-size: 10px;
+	text-align: center;
+}
+
+/* Footer */
+
+#footer {
+	width: 960px;
+	text-align: right;
+	margin: 0 0 0 0;
+	padding: 100px 135px 100px 135px;
+	background: url('../images/bottom-bg.png');
+	background-repeat: no-repeat;
+	background-attachment: initial;
+	background-position: 50% 0;
+}
+
+#footer #text {
+	padding: 25px 0 25px 0;
+	border-top: 1px solid #404040;
+}
+
+#footer p {
+	
+}
+
+/* Clear fix goes under floated elements */
+.clearfix {
+	font-size: 0;
+	height: 0;
+	clear: both;
+}

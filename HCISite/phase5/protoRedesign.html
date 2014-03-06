@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Evaluation Improvements</title>
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+		
+		<link href="../css/styles.css" rel="stylesheet" type="text/css">
+		<!-- <link rel="shortcut icon" href="images/scIcon.ico"> -->
+		
+		<script type="text/javascript" src="../js/jquery.js"></script>
+		<script type="text/javascript" src="../js/dropdown.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div id="contactBox">
+					<a href="mailto:weston5@vt.edu">Weston Thayer</a> | 
+					<a href="mailto:hmatt89@vt.edu">Matt Heitzer</a> | 
+					<a href="mailto:rsmith11@vt.edu">Rob Smith</a>
+				</div>
+				<div id="clickIndex">
+					<a href="../index.html">
+						<img src="../images/title.png" height="80px" width="330px" />
+					</a>
+				</div>
+				<div id="mainMenu">
+					<h1>
+						<ul>
+							<li>
+								<a href="../phase5.html" onmouseover="mopen('m5')" onmouseout="mclosetime()">Phase5</a>
+								<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="../phase5/protoRedesign.html">Prototype Redesign</a>
+								<a href="../phase5/clientMeeting.html">Client Meeting</a>
+								<a href="../phase5/finalReport.html">Final Report</a>
+								</div>
+							</li>
+							<li>
+								<a href="../phase4.html" onmouseover="mopen('m4')" onmouseout="mclosetime()">Phase4</a>
+								<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="../phase4/evalImprovements.html">Evaluation Improvements</a>
+								<a href="../phase4/evalGoals.html">Evaluation Goals</a>
+								<a href="../phase4/evalDesign.html">Evaluation Design</a>
+								<a href="../phase4/evalResults.html">Evaluation Results</a>
+								<a href="../phase4/redesign.html">Redesign</a>
+								<a href="../phase4/appendices.html">Appendices</a>
+								</div>
+							</li>
+							<li>
+								<a href="../phase3.html" onmouseover="mopen('m3')" onmouseout="mclosetime()">Phase3</a>
+								<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="../phase3/interactionBrainstorming.html">Interaction Design Brainstorming</a>
+								<a href="../phase3/interactionScenarios.html">Interaction Design Scenarios</a>
+								<a href="../phase3/interactionClaims.html">Interaction Design Claims</a>
+								<a href="../phase3/prototype.html">Prototype</a>
+								</div>
+							</li>
+							<li>
+								<a href="../phase2.html" onmouseover="mopen('m2')" onmouseout="mclosetime()">Phase2</a>
+								<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="../phase2/brainstorming.html">Activity Brainstorming</a>
+								<a href="../phase2/activityList.html">Activity List</a>
+								<a href="../phase2/activityScenarios.html">Activity Scenarios</a>
+								<a href="../phase2/activityClaims.html">Activity Claims</a>
+								<a href="../phase2/infoDesBrainstorming.html">Information Design Brainstorming</a>
+								<a href="../phase2/infoDesScenarios.html">Information Design Scenarios</a>
+								<a href="../phase2/infoDesClaims.html">Information Design Claims</a>
+								<a href="../phase2/representations.html">Representations</a>
+								</div>
+							</li>
+							<li>
+								<a href="../phase1.html" onmouseover="mopen('m1')" onmouseout="mclosetime()">Phase1</a>
+								<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+								<a href="../phase1/rootConcept.html">Root Concept</a>
+								<a href="../phase1/fieldStudies.html">Field Studies</a>
+								<a href="../phase1/summaries.html">Summaries</a>
+								<a href="../phase1/problemScenarios.html">Problem Scenarios</a>
+								<a href="../phase1/claims.html">Claims</a>
+								</div>
+							</li>
+						</ul>
+						<div style="clear:both"></div>
+					</h1>
+				</div>
+				<div id="waveform">
+					<img src="../images/waveform.png" height="133px" width="383px" />
+				</div>
+			</div> <!-- End "header" -->
+			<div id="infoBody">
+				<h1>Prototype Redesign</h1>
+				<br />
+				<div id="whiteBox">
+					<h3>1.&nbsp Playlist Control and Movement</h3>
+					<br />
+					<p>The "drag and drop" feature turned out to be incredibly difficult to implement on Android. However,
+					here are some sketches of the control flow and the handles affording the dragging.</p>
+					<br />
+					<p><a href="../phase4/images/mock4.png">The handles</a>. <a href="../phase2/data/queue.pdf">The control flow</a>.</p>
+					<br />
+					<h3>2.&nbsp Button Size</h3>
+					<br />
+					<p>The width of the buttons has been expanded to fill the screen. This ensures that they are easy to hit, however
+					does add the fear of accidentally hitting the wrong button. You can also see that the colors of the buttons have
+					been changed to keep the design paradigm of color unitiy among individual song controls.</p>
+					<br />
+					<p><a href="images/dj1.png">The buttons</a>.</p>
+					<br />
+					<h3>3.&nbsp Toast and the Pitch Slider (Added Affordances)</h3>
+					<br />
+					<p>Since the text on the buttons was removed last phase, we were worried that first time users wouldn't initally
+					understand what each icon implied the button did. As a result, we added something called Toast notifications. They
+					are a non-interactive, semi-transparent text boxes that can show the user a simple line of text. They will show
+					automatically for new users. However, the user can easily disable these notifications in the settings as they
+					get used to the application.</p>
+					<br />
+					<p>We also added the pitch slider. Notice how it leaves both the left and right volume
+					sliders accessable, while blocking the controls for the right side. Since this is a multitouch application, ideally
+					the DJ would be able to control the left volume, the left pitch, and the right pitch all at the same time. Unfortunately,
+					it turns out the Droid X doesn't support more than 2 simultanious touches. The pitch slider can be dismissed via
+					the standard Android method of hitting the "Back" button, or touching any area that isn't a volume slider or the slider
+					itself.</p>
+					<br />
+					<p>The rabbit and the turtle icons are used to show which direction the slider increases versus decreases pitch. We choose
+					the rabbit because when the pitch of the song goes up, the song also gets faster, and the inverse for lowering the pitch. We felt
+					that the rabbit and the turtle are common icons that afford a connotation about speed. One downside is that we weren't positive
+					that this connotation would be universal around the world.</p>
+					<br />
+					<p>Lastly, the background of the pitch slider is different from that of our volume sliders. Why? Because we wanted to further
+					distinguish that although they both slide, it will not impact the actual song volume. This is because we felt that if the
+					volume of the song were to suddenly decrease, it would be a terrible error for the DJ.</p>
+					<br />
+					<p><a href="images/dj2.png">The toast notification upon pressing the Left Pitch</a>.</p>
+				</div>
+				<br />
+				<div id="whiteBox">
+				<p>Overall, we feel that these additions bring the usability of our interface to an enjoyable level for our client-base. We feel
+				that if implemented on fully multi-touch hardware, the implications of 3 or even 4 finger touch could be easily utilized in cool
+				new ways by our application.</p>
+				</div>
+			</div> <!-- End "infoBody" -->
+		</div> <!-- End "container" -->
+	</body>
+</html>

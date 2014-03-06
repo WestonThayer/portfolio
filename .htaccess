@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteRule ^projects/ar ar.php
+RewriteRule ^projects/cole cole.php
+RewriteRule ^projects/ringpack ringpack.php
+RewriteRule ^about about.php
+RewriteRule ^media media.php
+RewriteRule ^projects/androidj androidj.php
+RewriteRule ^projects/cryclops cryclops.php
+RewriteRule ^projects/vertigo vertigo.php
+RewriteRule ^projects/kiteboard kiteboard.php
+RewriteRule ^projects/surfboard surfboard.php
+RewriteRule ^projects/guitar guitar.php
+RewriteRule ^projects/india india.php
+RewriteRule ^projects/avoice avoice.php
