@@ -111,7 +111,7 @@ strong {
 	float: left;
 	position: relative;
 	top: 80px;
-	left: 55px;
+	left: 70px;
 }
 
 #menu li {
@@ -122,7 +122,7 @@ strong {
 
 #menu li a {
 	display: block;
-	color: #888;
+	color: #888888;
 }
 
 #menu li a:hover {
@@ -131,10 +131,11 @@ strong {
 
 #menu li a span {
 	display: block;
-	height: 100px;
-	width: 60px;
+	height: 66px;
+	width: 40px;
 	background-image: url('../images/bird-menu-sprite.png');
 	background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
 #menu li a.item1 span {
@@ -142,23 +143,23 @@ strong {
 }
 
 #menu li a:hover.item1 span {
-	background-position: 0px -100px;
+	background-position: 0px -66px;
 }
 
 #menu li a.item2 span {
-	background-position: 0px -200px;
+	background-position: 0px -132px;
 }
 
 #menu li a:hover.item2 span {
-	background-position: 0px -300px;
+	background-position: 0px -198px;
 }
 
 #menu li a.item3 span {
-	background-position: 0px -400px;
+	background-position: 0px -264px;
 }
 
 #menu li a:hover.item3 span {
-	background-position: 0px -500px;
+	background-position: 0px -330px;
 }
 
 /* Bird logo */
