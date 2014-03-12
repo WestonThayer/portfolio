@@ -40,17 +40,14 @@
 	}
 }
 
-#row-gallery-1 {
-	margin-top: 10px; // Propper padding below the .section-hook
-}
-
 .gallery {
+	margin-top: 10px; // Propper padding below the .section-hook
 
 	.gallery-box {
 
 		img {
 			@extend .img-responsive;
-			margin-bottom: 15px;
+			margin-bottom: 17px;
 		}
 
 		.img-overlay {

@@ -37,52 +37,46 @@
 					$this->Image = $i;
 					$this->Caption = $c;
 				}
+
+				public function EchoGalleryBox($columnClass) {
+					echo '<div class="' . $columnClass . ' gallery-box">
+					          <a href="' . $this->Link . '">
+					              <div class="img-overlay">
+					                  <img src="' . $this->Image . '" />
+					                  <div class="caption">
+					                      <p>' . $this->Caption . '</p>
+					                  </div>
+					              </div>
+					          </a>
+					      </div>';
+				}
 			}
 
 			$projects = array
 			(
-				new ProjectBox('/projects/ringpack/', '/images/avoice/1.png', 'RingPack for Android'),
-				new ProjectBox('/projects/avoice/', '/images/avoice/1.png', 'aVoice for Windows 8'),
-				new ProjectBox('/projects/ar/', '/images/avoice/1.png', 'Augmented Reality with Unity3D'),
-				new ProjectBox('/projects/androidj/', '/images/avoice/1.png', 'AndroiDJ Concept'),
-				new ProjectBox('/projects/india/', '/images/avoice/1.png', 'laXmi for Android'),
-				new ProjectBox('/projects/cole/', '/images/avoice/1.png', 'Wedding in Flash'),
-				new ProjectBox('/projects/cryclops/', '/images/avoice/1.png', 'cryclops.com'),
-				new ProjectBox('/projects/vertigo/', '/images/avoice/1.png', '2D Platformer in Java'),
-				new ProjectBox('/projects/kiteboard/', '/images/avoice/1.png', 'Kiteboard'),
-				new ProjectBox('/projects/surfboard/', '/images/avoice/1.png', 'Surfboard')
+				new ProjectBox('/projects/ringpack/', '/images/ringpack_feature.png', 'RingPack for Android'),
+				new ProjectBox('/projects/avoice/', '/images/avoice_feature.png', 'aVoice for Windows 8'),
+				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'Augmented Reality with Unity3D'),
+				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
+				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
+				new ProjectBox('/projects/cole/', '/images/cole_feature.png', 'Wedding in Flash'),
+				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java'),
+				new ProjectBox('/projects/kiteboard/', '/images/kiteboard_feature.jpg', 'Kiteboard'),
+				new ProjectBox('/projects/surfboard/', '/images/surfboard_feature.jpg', 'Surfboard')
 			);
-
-			function echoGalleryBox($columnClass, $link, $image, $caption) {
-				echo '<div class="' . $columnClass . ' gallery-box">
-				          <a href="' . $link . '">
-				              <div class="img-overlay">
-				                  <img src="' . $image . '" />
-				                  <div class="caption">
-				                      <p>' . $caption . '</p>
-				                  </div>
-				              </div>
-				          </a>
-				      </div>';
-			}
-
-			$index = 0;
-
-			for ($row = 0; $row < 3; $row++) { ?>
-				<div class="row gallery" <?php if ($row === 0) { echo 'id="row-gallery-1"'; } ?>>
-					<?php
-						if ($index === 0) {
-							echoGalleryBox('col-md-6', $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
-							$index++;
-						}
-
-						for ($i = 0; $index < count($projects) && $i < 4; $i++) {
-							echoGalleryBox('col-md-3', $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
-							$index++;
-						}
-					?>
-				</div>
-			<?php	} ?>
+		?>
+		<div class="row gallery">
+			<?php
+				for ($i = 0; $i < count($projects); $i++) {
+					if ($i === 0) {
+						$projects[$i]->EchoGalleryBox('col-xs-12 col-sm-6 col-md-6');
+					}
+					else {
+						$projects[$i]->EchoGalleryBox('col-xs-12 col-sm-6 col-md-3');
+					}
+				}
+			?>
+		</div>
 	</section>
 </div>
 <div class="section-custom-light">
@@ -113,6 +107,34 @@
 					methodologies. To name a few, lately I've been practicing UCD, Agile, MVVM,
 					and data-driven design.
 				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<h4>Methods</h4>
+				<ul>
+					<li>User-Centered Design</li>
+					<li>Agile</li>
+					<li>DRY</li>
+					<li>MVVM</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h4>Languages</h4>
+				<ul>
+					<li>HTML | Sass</li>
+					<li>XAML | C#</li>
+					<li>XML | Java | C++</li>
+					<li>Objective C</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h4>Software</h4>
+				<ul>
+					<li>Photoshop | Illustrator | InDesign</li>
+					<li>After Effects | Premiere</li>
+					<li>Ableton Live</li>
+				</ul>
 			</div>
 		</div>
 	</section>
