@@ -41,16 +41,16 @@
 
 			$projects = array
 			(
-				new ProjectBox("/projects/ringpack/", "/images/avoice/1.png", "RingPack for Android"),
-				new ProjectBox("/projects/avoice/", "/images/avoice/1.png", "aVoice for Windows 8"),
-				new ProjectBox("/projects/ar/", "/images/avoice/1.png", "Augmented Reality with Unity3D"),
-				new ProjectBox("/projects/androidj/", "/images/avoice/1.png", "AndroiDJ Concept"),
-				new ProjectBox("/projects/india/", "/images/avoice/1.png", "laXmi for Android"),
-				new ProjectBox("/projects/cole/", "/images/avoice/1.png", "Wedding in Flash"),
-				new ProjectBox("/projects/cryclops/", "/images/avoice/1.png", "cryclops.com"),
-				new ProjectBox("/projects/vertigo/", "/images/avoice/1.png", "2D Platformer in Java"),
-				new ProjectBox("/projects/kiteboard/", "/images/avoice/1.png", "Kiteboard"),
-				new ProjectBox("/projects/surfboard/", "/images/avoice/1.png", "Surfboard")
+				new ProjectBox('/projects/ringpack/', '/images/avoice/1.png', 'RingPack for Android'),
+				new ProjectBox('/projects/avoice/', '/images/avoice/1.png', 'aVoice for Windows 8'),
+				new ProjectBox('/projects/ar/', '/images/avoice/1.png', 'Augmented Reality with Unity3D'),
+				new ProjectBox('/projects/androidj/', '/images/avoice/1.png', 'AndroiDJ Concept'),
+				new ProjectBox('/projects/india/', '/images/avoice/1.png', 'laXmi for Android'),
+				new ProjectBox('/projects/cole/', '/images/avoice/1.png', 'Wedding in Flash'),
+				new ProjectBox('/projects/cryclops/', '/images/avoice/1.png', 'cryclops.com'),
+				new ProjectBox('/projects/vertigo/', '/images/avoice/1.png', '2D Platformer in Java'),
+				new ProjectBox('/projects/kiteboard/', '/images/avoice/1.png', 'Kiteboard'),
+				new ProjectBox('/projects/surfboard/', '/images/avoice/1.png', 'Surfboard')
 			);
 
 			function echoGalleryBox($columnClass, $link, $image, $caption) {
@@ -58,7 +58,7 @@
 				          <a href="' . $link . '">
 				              <div class="img-overlay">
 				                  <img src="' . $image . '" />
-				                  <div class="caption"
+				                  <div class="caption">
 				                      <p>' . $caption . '</p>
 				                  </div>
 				              </div>
@@ -69,15 +69,15 @@
 			$index = 0;
 
 			for ($row = 0; $row < 3; $row++) { ?>
-				<div class="row gallery" <?php if ($row == 0) { echo 'id="row-gallery-1"'; } ?>>
+				<div class="row gallery" <?php if ($row === 0) { echo 'id="row-gallery-1"'; } ?>>
 					<?php
-						if ($index == 0) {
-							echoGalleryBox("col-md-6", $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
+						if ($index === 0) {
+							echoGalleryBox('col-md-6', $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
 							$index++;
 						}
 
 						for ($i = 0; $index < count($projects) && $i < 4; $i++) {
-							echoGalleryBox("col-md-3", $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
+							echoGalleryBox('col-md-3', $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
 							$index++;
 						}
 					?>
