@@ -1,0 +1,81 @@
+@import "variables";
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+@import "header";
+
+// Main styles
+
+.section-custom {
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+.section-custom-light {
+	@extend .section-custom;
+}
+
+.section-custom-dark {
+	@extend .section-custom;
+	background-color: #444;
+	color: $color-white;
+}
+
+.section-hook {
+
+	h1 {
+		border-bottom: 1px solid $gray-light;
+		padding-bottom: 10px;
+
+		small {
+			font-family: $signature-font-family;
+			display: block;
+		}
+	}
+
+	h4 {
+		color: $gray;
+	}
+
+	a {
+		margin-top: 10px;
+	}
+}
+
+#row-gallery-1 {
+	margin-top: 10px; // Propper padding below the .section-hook
+}
+
+.gallery {
+
+	.gallery-box {
+
+		img {
+			@extend .img-responsive;
+			margin-bottom: 15px;
+		}
+
+		.img-overlay {
+			position: relative;
+		}
+
+		.caption {
+			position: absolute;
+		    bottom: 0px;
+		    width: 100%;
+		    background-color: rgba(0,0,0,0.6);
+		    padding-top: 10px;
+		    padding-left: 10px;
+		    font-family: $font-family-sans-serif;
+		    color: $gray-lighter;
+		}
+	}
+}
+
+#footer {
+	margin-bottom: 0px;
+	padding-top: 50px;
+	color: $gray-light;
+}
+
+.btn {
+	font-family: $font-family-sans-serif;
+}

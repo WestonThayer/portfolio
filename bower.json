@@ -1,0 +1,21 @@
+{
+  "name": "westonthayer.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Cryclops/portfolio",
+  "authors": [
+    "westont <weston.thayer@outlook.com>"
+  ],
+  "description": "Weston Thayer's portfolio.",
+  "dependencies": {
+    "bootstrap-sass-official": "latest"
+  },
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

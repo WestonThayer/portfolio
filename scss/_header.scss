@@ -1,0 +1,152 @@
+// Header Styles
+
+// The powerlines
+#header-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -280px;
+    height: 450px;
+    overflow: hidden;
+    z-index: -999;
+
+    .oval-base {
+	    border-width: 1px;
+	    border-style: solid;
+	    position: absolute;
+	    left: 50%;
+	}
+
+	#oval-1 {
+	    width: 1800px;
+	    height: 400px;
+	    border-color: #fafafa;
+	    border-radius: 1800px / 400px;
+	    margin-left: -900px;
+	}
+
+	#oval-2 {
+	    width: 1900px;
+	    height: 400px;
+	    border-color: #eeeeee;
+	    border-radius: 1900px / 400px;
+	    margin-left: -950px;
+	    margin-top: 10px;
+	}
+
+	#oval-3 {
+	    width: 2000px;
+	    height: 400px;
+	    border-color: #e3e3e3;
+	    border-radius: 2000px / 400px;
+	    margin-left: -1000px;
+	    margin-top: 20px;
+	}
+}
+
+// The title and navigation
+.navbar-custom {
+    font-family: $signature-font-family;
+    color: $gray-light;
+    margin-top: 25px;
+
+    @media (max-width: $screen-xs-max) {
+			// Small screens don't need that margin
+			margin-top: 0px;
+		}
+
+    a {
+    	color: inherit;
+    }
+
+    .logo-text {
+		font-size: $font-size-h2;
+		white-space: nowrap;
+		padding-left: 0px;
+    }
+
+    .nav-custom {
+    	float: left;
+    	margin-bottom: 0px;
+    	padding-top: 45px;
+    	padding-left: 0px;
+
+    	@media (max-width: $screen-xs-max) {
+			// Small screens need different placement on powerlines
+			padding-left: 25px;
+			padding-top: 20px;
+		}
+
+    	li {
+    		float: left;
+    		text-align: center;
+    		list-style: none;
+
+    		a {
+    			display: block;
+
+    			span {
+    				display: block;
+    				height: 66px;
+					width: 40px;
+					background-image: url('../images/bird-menu-sprite.png');
+					background-repeat: no-repeat;
+				    margin-top: 10px;
+    			}
+    		}
+
+    		a.item1 {
+    			span {
+    				background-position: 0px 0px;
+    			}
+    		}
+
+    		a:hover.item1 {
+    			span {
+    				background-position: 0px -67px;
+    			}
+    		}
+
+    		a.item2 {
+    			span {
+    				background-position: 0px -131px;
+    			}
+    		}
+
+    		a:hover.item2 {
+    			span {
+    				background-position: 0px -198px;
+    			}
+    		}
+
+    		a.item3 {
+    			span {
+    				background-position: 0px -264px;
+    			}
+    		}
+
+    		a:hover.item3 {
+    			span {
+    				background-position: 0px -330px;
+    			}
+    		}
+    	}
+    }
+
+    a#logo {
+    	span {
+    		float: right;
+    		display: block;
+    		width: 70px;
+			height: 50px;
+			background: url('../images/bird-sprite.png');
+			background-repeat: no-repeat;
+    	}
+    }
+
+    a:hover#logo {
+    	span {
+    		background-position: 0px -50px;
+    	}
+    }
+}

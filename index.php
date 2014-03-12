@@ -1,97 +1,120 @@
 <?php require_once('header.php'); ?>
-<div id="content">
-	<div id="left-bar">
-		<p>Hello,</p>
-		<br />
-		<p>My name is Weston. My passion is crafting both virtual and physical tools for a variety of
-        users. Sometimes this has just been me and a few
-		friends; other times my audience has extended to over
-		<a href="http://market.android.com/developer?pub=Cryclops" target="_blank">
-			50,000</a>. The bottom line: <em>I want my creations to enable new
-		possibilities and innovations.</em></p>
-		<br />
-		<p>Regardless of the medium, I'm always excited about the processes and techniques
-        that go into realizing designs into high quality products. I try to share what I
-        learn on <a href="http://cryclops.com" target="_blank">my blog</a> when I have time.
-        So check that out if you're curious, browse some of the projects to the right, or
-		<a href="about/">read more about me</a>.</p>
-	</div>
-	<div id="grid">
-		<div class="grid-row">
-            <div class="grid-item">
-				<a href="projects/avoice/">
-					<img class="grid-item-pic" src="images/avoice_feature.png" />
-				</a>
-				<p class="grid-item-description">aVoice for Windows 8</p>
-			</div>
-			<div class="grid-item">
-				<a href="projects/india/">
-					<img class="grid-item-pic" src="images/india_feature.png" />
-				</a>
-				<p class="grid-item-description">laXmi for Android</p>
-			</div>
-			<div class="grid-item">
-				<a href="projects/ar/">
-					<img class="grid-item-pic" src="images/ar_feature.png" />
-				</a>
-				<p class="grid-item-description">Augmented Reality with Unity3D</p>
+<div class="section-custom-light">
+	<section class="container">
+	    <div class="row">
+	    	<div class="col-md-3">
+	        	<img class="img-circle" src="/images/me.jpg" width="200" height="200" />
+	        </div>
+	        <div class="col-md-9 section-hook">
+	            <h1>
+	            	<small>Hello,</small>
+	            	I'm Weston
+	            </h1>
+	            <h4>My passion is <strong>crafting</strong> virtual and physical tools to enable new possibilities and innovations.</h4>
+	            <a class="btn btn-primary" href="#skills">Skills</a>
+	        </div>
+	    </div>
+	</section>
+</div>
+<div class="section-custom-dark">
+	<section class="container">
+		<div class="row">
+			<div class="col-md-12 section-hook">
+				<h1>
+	            	<small>Projects</small>
+	            	Selected Work
+	            </h1>
 			</div>
 		</div>
-		<div class="grid-row">
-            <div class="grid-item">
-				<a href="projects/cole/">
-					<img class="grid-item-pic" src="images/cole_feature.png" />
-				</a>
-				<p class="grid-item-description">Cole Wedding</p>
-			</div>
-			<div class="grid-item">
-				<a href="projects/ringpack/">
-					<img class="grid-item-pic" src="images/ringpack_feature.png" />
-				</a>
-				<p class="grid-item-description">RingPack for Android</p>
-			</div>
-			<div class="grid-item">
-				<a href="projects/androidj/">
-					<img class="grid-item-pic" src="images/androidj_feature.png" />
-				</a>
-				<p class="grid-item-description">AndroiDJ Concept</p>
+		<?php
+			class ProjectBox {
+				public $Link;
+				public $Image;
+				public $Caption;
+
+				public function __construct($l, $i, $c) {
+					$this->Link = $l;
+					$this->Image = $i;
+					$this->Caption = $c;
+				}
+			}
+
+			$projects = array
+			(
+				new ProjectBox("/projects/ringpack/", "/images/avoice/1.png", "RingPack for Android"),
+				new ProjectBox("/projects/avoice/", "/images/avoice/1.png", "aVoice for Windows 8"),
+				new ProjectBox("/projects/ar/", "/images/avoice/1.png", "Augmented Reality with Unity3D"),
+				new ProjectBox("/projects/androidj/", "/images/avoice/1.png", "AndroiDJ Concept"),
+				new ProjectBox("/projects/india/", "/images/avoice/1.png", "laXmi for Android"),
+				new ProjectBox("/projects/cole/", "/images/avoice/1.png", "Wedding in Flash"),
+				new ProjectBox("/projects/cryclops/", "/images/avoice/1.png", "cryclops.com"),
+				new ProjectBox("/projects/vertigo/", "/images/avoice/1.png", "2D Platformer in Java"),
+				new ProjectBox("/projects/kiteboard/", "/images/avoice/1.png", "Kiteboard"),
+				new ProjectBox("/projects/surfboard/", "/images/avoice/1.png", "Surfboard")
+			);
+
+			function echoGalleryBox($columnClass, $link, $image, $caption) {
+				echo '<div class="' . $columnClass . ' gallery-box">
+				          <a href="' . $link . '">
+				              <div class="img-overlay">
+				                  <img src="' . $image . '" />
+				                  <div class="caption"
+				                      <p>' . $caption . '</p>
+				                  </div>
+				              </div>
+				          </a>
+				      </div>';
+			}
+
+			$index = 0;
+
+			for ($row = 0; $row < 3; $row++) { ?>
+				<div class="row gallery" <?php if ($row == 0) { echo 'id="row-gallery-1"'; } ?>>
+					<?php
+						if ($index == 0) {
+							echoGalleryBox("col-md-6", $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
+							$index++;
+						}
+
+						for ($i = 0; $index < count($projects) && $i < 4; $i++) {
+							echoGalleryBox("col-md-3", $projects[$index]->Link, $projects[$index]->Image, $projects[$index]->Caption);
+							$index++;
+						}
+					?>
+				</div>
+			<?php	} ?>
+	</section>
+</div>
+<div class="section-custom-light">
+	<section id="skills" class="container">
+		<div class="row">
+			<div class="col-md-12 section-hook">
+				<h1>
+	            	<small>Skills</small>
+	            	What I'm Good At
+	            </h1>
 			</div>
 		</div>
-		<div class="grid-row">
-            <div class="grid-item">
-				<a href="projects/cryclops/">
-					<img class="grid-item-pic" src="images/cryclops_feature.png" />
-				</a>
-				<p class="grid-item-description">cryclops.com</p>
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Design</h3>
+				<p>
+					I care deeply about how to craft high quality products that are intuitive to use.
+					This has led me to enjoy studying and using a variety of design and software
+					methodologies. To name a few, lately I've been practicing UCD, Agile, MVVM,
+					and data-driven design.
+				</p>
 			</div>
-			<div class="grid-item">
-				<a href="projects/vertigo/">
-					<img class="grid-item-pic" src="images/vertigo_feature.png" />
-				</a>
-				<p class="grid-item-description">Vertigo in Java</p>
-			</div>
-			<div class="grid-item">
-				<a href="projects/kiteboard/">
-					<img class="grid-item-pic" src="images/kiteboard_feature.png" />
-				</a>
-				<p class="grid-item-description">Kiteboard</p>
+			<div class="col-md-6">
+				<h3>Development</h3>
+				<p>
+					I care deeply about how to craft high quality products that are intuitive to use.
+					This has led me to enjoy studying and using a variety of design and software
+					methodologies. To name a few, lately I've been practicing UCD, Agile, MVVM,
+					and data-driven design.
+				</p>
 			</div>
 		</div>
-        <div class="grid-row">
-            <div class="grid-item">
-				<a href="projects/surfboard/">
-					<img class="grid-item-pic" src="images/surfboard_feature.jpg" />
-				</a>
-				<p class="grid-item-description">Surfboard</p>
-			</div>
-			<!--<div class="grid-item">
-				<a href="projects/guitar/">
-					<img class="grid-item-pic" src="images/guitar_feature.jpg" />
-				</a>
-				<p class="grid-item-description">2003</p>
-			</div>-->
-        </div>
-	</div>
-	<div class="clearfix"></div>
+	</section>
 </div>
 <?php require_once('footer.php'); ?>
