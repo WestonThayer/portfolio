@@ -60,7 +60,7 @@
     }
 
     .logo-text {
-		font-size: $font-size-h2;
+		font-size: $font-size-h4;
 		white-space: nowrap;
 		padding-left: 0px;
     }
@@ -79,6 +79,7 @@
 
     	li {
     		float: left;
+    		font-size: 14px; // Override just here to keep header small
     		text-align: center;
     		list-style: none;
 

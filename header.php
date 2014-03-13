@@ -13,7 +13,7 @@
 		<meta name="description" content="My projects to date" />
 		<meta name="author" content="Weston Thayer" />
 		
-		<meta name="keywords" content="Weston Thayer, Weston, Thayer, Weston Thayer Portfolio" />
+		<meta name="keywords" content="Weston Thayer, Weston, Thayer, Weston Thayer Portfolio, Product Designer, Program Manager, UX" />
 		<meta name="copyrite" content="Copyrite Weston Thayer 2011" />
 		
 		<link rel="stylesheet" type="text/css" href="/css/main.css" />

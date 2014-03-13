@@ -15,8 +15,12 @@
 
 .section-custom-dark {
 	@extend .section-custom;
-	background-color: #444;
+	background-color: $color-dark;
 	color: $color-white;
+}
+
+#img-me {
+	margin-top: 30px;
 }
 
 .section-hook {
@@ -55,15 +59,42 @@
 		}
 
 		.caption {
+			visibility: hidden;
 			position: absolute;
 		    bottom: 0px;
 		    width: 100%;
-		    background-color: rgba(0,0,0,0.6);
+		    background-color: black;//rgba(0,0,0,0.6);
 		    padding-top: 10px;
 		    padding-left: 10px;
 		    font-family: $font-family-sans-serif;
 		    color: $gray-lighter;
 		}
+	}
+
+	.gallery-box:hover .caption {
+		visibility: visible;
+	}
+}
+
+.gallery-left {
+
+	img {
+		@extend .img-responsive;
+		margin-top: 20px;
+	}
+}
+
+#skills {
+
+	.section-skills-design {
+		
+	}
+
+	#header-ampersand {
+		font-family: $signature-font-family;
+		font-size: floor(($font-size-base * 7.4));
+		color: $gray-light;
+		text-align: center;
 	}
 }
 
@@ -75,4 +106,9 @@
 
 .btn {
 	font-family: $font-family-sans-serif;
+}
+
+blockquote {
+	font-family: $signature-font-family;
+	color: $gray-light;
 }

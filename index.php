@@ -3,14 +3,14 @@
 	<section class="container">
 	    <div class="row">
 	    	<div class="col-md-3">
-	        	<img class="img-circle" src="/images/me.jpg" width="200" height="200" />
+	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="200" height="200" />
 	        </div>
 	        <div class="col-md-9 section-hook">
 	            <h1>
 	            	<small>Hello,</small>
 	            	I'm Weston
 	            </h1>
-	            <h4>My passion is <strong>crafting</strong> virtual and physical tools to enable new possibilities and innovations.</h4>
+	            <h4>My passion is crafting virtual and physical tools to enable new possibilities and innovations.</h4>
 	            <a class="btn btn-primary" href="#skills">Skills</a>
 	        </div>
 	    </div>
@@ -56,7 +56,7 @@
 			(
 				new ProjectBox('/projects/ringpack/', '/images/ringpack_feature.png', 'RingPack for Android'),
 				new ProjectBox('/projects/avoice/', '/images/avoice_feature.png', 'aVoice for Windows 8'),
-				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'Augmented Reality with Unity3D'),
+				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'AR with Unity3D'),
 				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
 				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
 				new ProjectBox('/projects/cole/', '/images/cole_feature.png', 'Wedding in Flash'),
@@ -90,26 +90,42 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-5 section-skills-design">
 				<h3>Design</h3>
 				<p>
-					I care deeply about how to craft high quality products that are intuitive to use.
-					This has led me to enjoy studying and using a variety of design and software
-					methodologies. To name a few, lately I've been practicing UCD, Agile, MVVM,
-					and data-driven design.
+					I love the process of exploring the tree of solutions to an
+					open ended, ambigious question. From <strong>user
+					research</strong> - to <strong>prototyping</strong> - to <strong>usability
+					testing</strong>, I'm constantly iterating towards an efficient, ideal
+					solution within the constraints. I'm <a href="http://www.hcde.washington.edu/ucd" target="_blank">
+					educated</a> in user-centered design and this is where my creative side shines.
 				</p>
 			</div>
-			<div class="col-md-6">
-				<h3>Development</h3>
+			<div class="col-md-2">
+				<h1 id="header-ampersand">&amp;</h1>
+			</div>
+			<div class="col-md-5">
+				<h3>Develop</h3>
 				<p>
-					I care deeply about how to craft high quality products that are intuitive to use.
-					This has led me to enjoy studying and using a variety of design and software
-					methodologies. To name a few, lately I've been practicing UCD, Agile, MVVM,
-					and data-driven design.
+					When a question finds an answer, I'm there to help build it into a product.
+					I have experience with
+					<strong>architecting</strong>,
+					<strong>front-end</strong>,
+					<strong>back-end</strong>, and
+					<strong>testing</strong>.
+					This means I can bring a unique perspective to a team; I understand the brushes
+					and paint of our canvas.
 				</p>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4 col-md-push-4">
+				<blockquote>
+					&ldquo;I like to wear a lot of hats."
+				</blockquote>
+			</div>
+		</div>
+		<!--<div class="row">
 			<div class="col-md-4">
 				<h4>Methods</h4>
 				<ul>
@@ -136,7 +152,7 @@
 					<li>Ableton Live</li>
 				</ul>
 			</div>
-		</div>
+		</div>-->
 	</section>
 </div>
 <?php require_once('footer.php'); ?>
