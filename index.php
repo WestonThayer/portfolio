@@ -147,7 +147,7 @@
 						echo '<li>';
 
 						if ($this->IsHeader) {
-							echo '<h4>' . $this->Title . '</h4>';
+							echo $this->Title;
 						}
 						else {
 							echo '<a href="' . $this->Link . '" target="_blank">' . $this->Title . '</a>';
@@ -209,10 +209,10 @@
 
 					for ($column = 0; $column < 6; $column++) {
 						if ($column < 2) {
-							echo '<div class="col-xs-3 col-md-2 text-right">';
+							echo '<div class="col-xs-3 col-md-2">';
 						}
 						elseif ($column < 4) {
-							echo '<div class="col-xs-3 col-md-2 text-center">';
+							echo '<div class="col-xs-3 col-md-2">';
 						}
 						else {
 							echo '<div class="col-xs-3 col-md-2">';
