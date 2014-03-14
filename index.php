@@ -178,6 +178,7 @@
 					new Skill(false, 'http://en.wikipedia.org/wiki/Extensible_Application_Markup_Language', 'XAML'),
 					new Skill(false, 'http://developer.android.com/guide/topics/ui/declaring-layout.html', 'Android XML'),
 					new Skill(true, '', 'Back-End'),
+					new Skill(false, 'http://en.wikipedia.org/wiki/Windows_Azure', 'Azure'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/PHP', 'PHP'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/C_Sharp_(programming_language)', 'C#'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/C++', 'C++'),
