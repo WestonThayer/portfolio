@@ -5,7 +5,7 @@
 // Main styles
 
 .section-custom {
-	margin-bottom: 50px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
@@ -76,18 +76,50 @@
 	}
 }
 
-.gallery-left {
+.gallery-project {
+
+	.row {
+		margin-bottom: 25px;
+	}
 
 	img {
 		@extend .img-responsive;
-		margin-top: 20px;
+	}
+
+	h1, h2 {
+		margin-top: 0px;
+	}
+
+	.bottom-finish {
+		text-align: center;
 	}
 }
 
 #skills {
+	@media (min-width: $screen-md-min) {
+		background: url('../images/brain.svg');
+		background-size: 300px;
+		background-repeat: no-repeat;
+		background-position: center 200px;
+	}
+
+	.section-hook {
+		text-align: center;
+	}
 
 	.section-skills-design {
-		
+		text-align: right;
+
+		@media (max-width: $screen-sm-max) {
+			// Small screens shouldn't be right aligned
+			text-align: left;
+		}
+	}
+
+	#svg-brain {
+		path {
+			fill: $gray-light;
+		}
 	}
 
 	#header-ampersand {
@@ -95,6 +127,30 @@
 		font-size: floor(($font-size-base * 7.4));
 		color: $gray-light;
 		text-align: center;
+		margin-top: 100px;
+
+		@media (max-width: $screen-sm-max) {
+			// Small screens don't need as much to center
+			margin-top: 25px;
+		}
+	}
+
+	.quote {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		text-align: center;
+
+		blockquote {
+			border-left: none;
+		}
+	}
+
+	#skills-list {
+
+		.list-unstyled h4 {
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
 	}
 }
 
