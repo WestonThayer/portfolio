@@ -82,13 +82,16 @@
 					under the <code>MENU</code> key. Moving <code>Get More</code> onto the main screen
 					helped people jump right into the customization workflow.
 				</p>
+				<p>
+					RingPack currently has <strong>17,076 active installs</strong> and <strong>157,578 downloads</strong>.
+				</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-md-push-4 bottom-finish">
-				<p>17,076 <em>active installs</em></p>
-				<p>157.578 <em>downloads</em></p>
-				<a class="btn btn-primary" href="https://github.com/Cryclops/RingPack" target="_blank">GitHub</a>
+				<a class="btn btn-default" href="https://github.com/Cryclops/RingPack" target="_blank">
+					<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> GitHub
+				</a>
 			</div>
 		</div>
 	</div>

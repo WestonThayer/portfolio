@@ -122,19 +122,6 @@
 		}
 	}
 
-	#header-ampersand {
-		font-family: $signature-font-family;
-		font-size: floor(($font-size-base * 7.4));
-		color: $gray-light;
-		text-align: center;
-		margin-top: 100px;
-
-		@media (max-width: $screen-sm-max) {
-			// Small screens don't need as much to center
-			margin-top: 25px;
-		}
-	}
-
 	.quote {
 		margin-top: 25px;
 		margin-bottom: 25px;
@@ -162,6 +149,10 @@
 
 .btn {
 	font-family: $font-family-sans-serif;
+
+	.btn-icon {
+		display: inline-block;
+	}
 }
 
 blockquote {

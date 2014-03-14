@@ -197,22 +197,27 @@
 					new Skill(false, 'http://www.adobe.com/products/indesign.html', 'InDesign'),
 					new Skill(false, 'http://www.adobe.com/products/aftereffects.html', 'After Effects'),
 					new Skill(false, 'http://www.adobe.com/products/premiere.html', 'Premiere'),
-					new Skill(false, 'https://www.ableton.com/', "Ableton Live")
+					new Skill(false, 'https://www.ableton.com/', "Ableton Live"),
+					new Skill(false, 'http://bower.io/', "Bower"),
+					new Skill(false, 'http://www.git-tower.com/blog/git-cheat-sheet/', "Git")
 				);
 			?>
 			<ul class="list-unstyled">
 				<?php
 					$index = 0;
 
-					for ($column = 0; $column < 4; $column++) {
+					for ($column = 0; $column < 6; $column++) {
 						if ($column < 2) {
 							echo '<div class="col-xs-3 col-md-2 text-right">';
 						}
+						elseif ($column < 4) {
+							echo '<div class="col-xs-3 col-md-2 text-center">';
+						}
 						else {
-							echo '<div class="col-xs-3 col-md-2 col-md-push-4">';
+							echo '<div class="col-xs-3 col-md-2">';
 						}
 
-						for ($i = 0; $index < count($skills) && $i < 10; $i++) {
+						for ($i = 0; $index < count($skills) && $i < 7; $i++) {
 							$skills[$index]->EchoListItem();
 							$index++;
 						}
