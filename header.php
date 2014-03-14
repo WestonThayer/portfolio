@@ -44,7 +44,7 @@
 						<ul class="nav-custom">
 							<li><a href="/" class="item1">home<span></span></a></li>
 							<li><a href="http://cryclops.com" class="item2">blog<span></span></a></li>
-							<li><a href="/about/" class="item3">about<span></span></a></li>
+							<li><a href="/images/resume.pdf" class="item3">resume<span></span></a></li>
 						</ul>
 					</div>
 					<div class="col-xs-4 col-md-3">
