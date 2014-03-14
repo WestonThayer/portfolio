@@ -65,12 +65,6 @@
                         indicate whether you or the other contact sent the last message.
                     </em>
                 </p>
-                <p>
-                    <em>
-                        A similar concept was explored by
-                        <a href="http://apps.microsoft.com/windows/en-us/app/touchmail/be8bb8da-15eb-49dd-9073-552201dc0a75" target="_blank">TouchMail</a>.
-                    </em>
-                </p>
             </div>
         </div>
     </div>
