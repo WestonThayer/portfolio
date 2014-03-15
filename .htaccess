@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule ^projects/ar ar.php
-RewriteRule ^projects/cole cole.php
+RewriteRule ^projects/usability usability.php
 RewriteRule ^projects/ringpack ringpack.php
 RewriteRule ^media media.php
 RewriteRule ^projects/androidj androidj.php

@@ -144,7 +144,12 @@
 #footer {
 	margin-bottom: 0px;
 	padding-top: 50px;
-	color: $gray-light;
+	text-align: center;
+
+	// style the github button
+	a {
+		color: black;
+	}
 }
 
 .btn {

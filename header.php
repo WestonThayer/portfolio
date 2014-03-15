@@ -17,7 +17,6 @@
 		<meta name="copyrite" content="Copyrite Weston Thayer 2011" />
 		
 		<link rel="stylesheet" type="text/css" href="/css/main.css" />
-		<link rel="stylesheet" type="text/css" href="/css/lightbox.css" media="screen" />
 		
 		<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="/favicon.png" />

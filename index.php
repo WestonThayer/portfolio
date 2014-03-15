@@ -59,7 +59,7 @@
 				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'AR with Unity3D'),
 				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
 				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
-				new ProjectBox('/projects/cole/', '/images/cole_feature.png', 'Wedding in Flash'),
+				new ProjectBox('/projects/usability/', '/images/usability_feature.png', 'Usability Testing'),
 				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java'),
 				new ProjectBox('/projects/kiteboard/', '/images/kiteboard_feature.jpg', 'Kiteboard'),
 				new ProjectBox('/projects/surfboard/', '/images/surfboard_feature.jpg', 'Surfboard')
