@@ -42,12 +42,17 @@
 		            <div class="col-xs-8 col-md-3">
 						<ul class="nav-custom">
 							<li><a href="/" class="item1">home<span></span></a></li>
-							<li><a href="http://cryclops.com" class="item2">blog<span></span></a></li>
-							<li><a href="/images/resume.pdf" class="item3">resume<span></span></a></li>
+							<li><a href="http://cryclops.com" target="_blank" class="item2">blog<span></span></a></li>
+							<li><a href="/images/resume.pdf" target="_blank" class="item3">resume<span></span></a></li>
 						</ul>
 					</div>
 					<div class="col-xs-4 col-md-3">
 						<a id="logo" href="/media/"><span></span></a>
+					</div>
+					<div class="col-md-3">
+						<button type="button" class="btn btn-default btn-xs">
+							<span class="glyphicon glyphicon-envelope"></span> me@westonthayer.com
+						</button>
 					</div>
 				</div>
 			</div>

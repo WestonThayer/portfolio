@@ -11,13 +11,15 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>My passion is crafting virtual and physical tools to enable new possibilities and innovations.</h4>
-	            <a class="btn btn-primary" href="#skills">Skills</a>
+	            <a class="btn btn-default" href="#work">Work</a>
+	            <a class="btn btn-default" href="#skills">Skills</a>
+	            <a class="btn btn-primary" href="#contact">Contact</a>
 	        </div>
 	    </div>
 	</section>
 </div>
 <div class="section-custom-dark">
-	<section class="container">
+	<section id="work" class="container">
 		<div class="row">
 			<div class="col-md-12 section-hook">
 				<h1>
@@ -94,7 +96,7 @@
 				<h3>Design</h3>
 				<p>
 					I love exploring the possibilities of an
-					open ended, ambigious question. From <strong>user
+					open ended, ambiguous question. From <strong>user
 					research</strong> - to <strong>prototyping</strong> - to <strong>usability
 					testing</strong>, I'm constantly iterating towards an efficient, ideal
 					solution within the constraints. I'm
@@ -110,15 +112,15 @@
 			<div class="col-md-4">
 				<h3>Develop</h3>
 				<p>
-					When a question finds an answer, I'm there to help build it into a product.
+					When I find a question's answer, I'm there to help build it into a product.
 					I have a
 					<a href="https://www.cs.vt.edu/" target="_blank">CS background</a>
 					and experience with
 					<strong>front-end</strong>,
 					<strong>back-end</strong>, and
 					<strong>testing</strong>.
-					Software platforms are intimately familiar to me and I draw from this knowledge
-					to inform and inspire the design. I bring a unique perspective; an understanding
+					I am intimately familiar with software platforms and draw from this knowledge
+					to inform and inspire the design process. I bring a unique perspective; an understanding
 					of the paint, brushes, and canvas.
 				</p>
 			</div>
@@ -130,6 +132,10 @@
 				</blockquote>
 			</div>
 		</div>
+	</section>
+</div>
+<div class="section-custom-dark">
+	<section class="container">
 		<div id="skills-list" class="row">
 			<?php
 				class Skill {
@@ -199,63 +205,44 @@
 					new Skill(false, 'http://www.adobe.com/products/aftereffects.html', 'After Effects'),
 					new Skill(false, 'http://www.adobe.com/products/premiere.html', 'Premiere'),
 					new Skill(false, 'https://www.ableton.com/', "Ableton Live"),
+					new Skill(true, '', 'Development'),
+					new Skill(false, 'http://www.visualstudio.com/', 'Visual Studio'),
+					new Skill(false, 'https://www.eclipse.org/', 'Eclipse'),
+					new Skill(false, 'https://unity3d.com/', 'Unity3D'),
+					new Skill(false, 'https://developer.apple.com/xcode/', 'Xcode'),
 					new Skill(false, 'http://bower.io/', "Bower"),
-					new Skill(false, 'http://www.git-tower.com/blog/git-cheat-sheet/', "Git")
+					new Skill(false, 'http://www.git-tower.com/blog/git-cheat-sheet/', 'Git'),
+					new Skill(false, 'https://www.nuget.org/packages/sortingobservablecollection/', 'NuGet')
 				);
 			?>
 			<ul class="list-unstyled">
 				<?php
-					$index = 0;
-
-					for ($column = 0; $column < 6; $column++) {
-						if ($column < 2) {
-							echo '<div class="col-xs-3 col-md-2">';
-						}
-						elseif ($column < 4) {
-							echo '<div class="col-xs-3 col-md-2">';
-						}
-						else {
+					for ($i = 0; $i < count($skills); $i++) {
+						if ($skills[$i]->IsHeader) {
+							if ($i > 0) {
+								echo '</div>';
+							}
 							echo '<div class="col-xs-3 col-md-2">';
 						}
 
-						for ($i = 0; $index < count($skills) && $i < 7; $i++) {
-							$skills[$index]->EchoListItem();
-							$index++;
-						}
-
-						echo '</div>';
+						$skills[$i]->EchoListItem();
 					}
+
+					echo '</div>'; // close the last div
 				?>
 			</ul>
 		</div>
-		<!--<div class="row">
-			<div class="col-md-4">
-				<h4>Methods</h4>
-				<ul>
-					<li>User-Centered Design</li>
-					<li>Agile</li>
-					<li>DRY</li>
-					<li>MVVM</li>
-				</ul>
+	</section>
+</div>
+<div id="contact" class="section-custom-light">
+	<section class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-push-4">
+				<a class="btn btn-default">Email</a>
+				<a class="btn btn-default">LinkedIn</a>
+				<a class="btn btn-default">GitHub</a>
 			</div>
-			<div class="col-md-4">
-				<h4>Languages</h4>
-				<ul>
-					<li>HTML | Sass</li>
-					<li>XAML | C#</li>
-					<li>XML | Java | C++</li>
-					<li>Objective C</li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<h4>Software</h4>
-				<ul>
-					<li>Photoshop | Illustrator | InDesign</li>
-					<li>After Effects | Premiere</li>
-					<li>Ableton Live</li>
-				</ul>
-			</div>
-		</div>-->
+		</div>
 	</section>
 </div>
 <?php require_once('footer.php'); ?>

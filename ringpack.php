@@ -38,12 +38,15 @@
 					customization community.
 				</p>
 				<p>
-					Affinity diagramming my notes revealed two major categories:
+					After affinity diagramming my notes, I was left with two major categories:
 				</p>
 				<ul>
 					<li>UI modifications</li>
 					<li>Custom ringtones</li>
 				</ul>
+				<p>
+					I chose the relatively unexplored custom ringtone space.
+				</p>
 			</div>
 		</div>
 		<div class="row">
@@ -53,15 +56,16 @@
 			<div class="col-md-4">
 				<h2>Design</h2>
 				<p>
-					I was inspired by
+					My inspiration was
 					<a href="http://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS" target="_blank">Android&#39;s
 					SMS permission</a>, which fires an event whenever a text is received.
-					Could this be used to deliver a new custom ringtone experience?
 				</p>
 				<p>
-					Rough ideas started on paper, slowly making their way into wireframes (used in the video).
-					A general spec grew along side the sketches in OneNote to help me prioritize features
-					and find the MVP.
+					Rough ideas started on paper by rapidly sketching ideas. Once I had a few to evaluate,
+					I critiqued them with friends. I selected the most interesting concept to transform
+					into wireframes (used in the video). At the same time, I started a spec to better understand
+					the functionality, prioritize features, and find the
+					<a href="http://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank">MVP</a>.
 				</p>
 			</div>
 		</div>
@@ -72,7 +76,7 @@
 			<div class="col-md-4">
 				<h2>Evaluation</h2>
 				<p>
-					Initially, RingPack was going to ship with handful of preselected tones. After talking with
+					Initially, RingPack was going to ship with a handful of preselected tones. After talking with
 					users, it became clear that this one-size-fits-all approach would fall short. The idea of
 					installable packs emerged from the feedback.
 				</p>
@@ -90,7 +94,7 @@
 		<div class="row">
 			<div class="col-md-4 col-md-push-4 bottom-finish">
 				<a class="btn btn-default" href="https://github.com/Cryclops/RingPack" target="_blank">
-					<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> GitHub
+					<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> RingPack on GitHub
 				</a>
 			</div>
 		</div>

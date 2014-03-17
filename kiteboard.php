@@ -48,6 +48,11 @@
                 </p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-8">
+                <img src="/images/kiteboard/final.jpg" />
+            </div>
+        </div>
     </div>
 </div>
 <?php require_once('footer.php'); ?>

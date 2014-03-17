@@ -4,6 +4,10 @@
         <div class="row">
             <div class="col-md-8">
                 <img src="/images/india/promo.png" />
+                <p class="photo-credit">
+                    Screenshot from
+                    <a href="http://www.id4learning.com/laxmi.html" target="_blank">project site</a>
+                </p>
             </div>
             <div class="col-md-4 section-hook">
                 <h1>
@@ -18,10 +22,10 @@
                 <p>
                     A piece of the
                     <a href="http://www.id4learning.com/laxmi.html" target="_blank">laXmi solution</a>,
-                    designed to bring illiterate Indian women out of poverty.
+                    designed to bring illiterate Indian women out of poverty through microfinancing.
                 </p>
                 <p>
-                	I worked with two Industrial Designers at Virginia Tech to design and buld an app for the $50
+                	I worked with two Industrial Designers at Virginia Tech to design and build an app for the $50
                 	<a href="http://en.wikipedia.org/wiki/Aakash_(tablet)" target="_blank">Aakash tablet</a>.
                 	The laXmi system has been officially adopted by the
                 	<a href="http://wcd.nic.in/" target="_blank">Ministry of Women and Child Development</a>.
@@ -35,7 +39,8 @@
             <div class="col-md-4">
                 <p>
                     <em>
-                    	The app follows along with group meetings, playing the accountant.
+                    	The app acts as a virtual accountant, assisting an NGO facilitator while they
+                        train a group of women how microfinancing works.
                     </em>
                 </p>
             </div>

@@ -3,7 +3,7 @@
     <div class="container gallery-project">
         <div class="row">
             <div class="col-md-8">
-                <img src="/images/avoice/3.png" />
+                <img src="/images/avoice/1.png" />
             </div>
             <div class="col-md-4 section-hook">
                 <h1>
@@ -35,8 +35,8 @@
             <div class="col-md-4">
                 <h2>Priorities</h2>
                 <p>
-                    Google Voice has nearly the feature set of an email client. Working alone, there was no way I could
-                    implement everything. After researching support forums and talking to other users, I used the
+                    Google Voice has nearly the feature set of an email client. Working solo meant I needed
+                    to focus only on the most important ones. After researching support forums and talking to other users, I used the
                     value-mapping technique to figure out where to focus first.
                 </p>
             </div>
@@ -55,14 +55,13 @@
         </div>
         <div class="row">
             <div class="col-md-8">
-                <img src="/images/avoice/1.png" />
+                <img src="/images/avoice/3.png" />
             </div>
             <div class="col-md-4">
                 <p>
                     <em>
-                        An MRU list of messages makes it hard to distinguish active conversations from stale ones.
-                        Grouping by the day of the last message separates content from history. I use color to
-                        indicate whether you or the other contact sent the last message.
+                        Live tiles and push notifications keep you up to date, even when you're
+                        not in the app.
                     </em>
                 </p>
             </div>

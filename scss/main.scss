@@ -131,14 +131,10 @@
 			border-left: none;
 		}
 	}
+}
 
-	#skills-list {
-
-		.list-unstyled h4 {
-			margin-top: 0px;
-			margin-bottom: 0px;
-		}
-	}
+#contact {
+	text-align: center;
 }
 
 #footer {
@@ -149,6 +145,15 @@
 	// style the github button
 	a {
 		color: black;
+	}
+
+	.btn-default {
+		background-color: $gray-light;
+		border-color: $gray;
+	}
+
+	.btn-default:hover {
+		background-color: $gray;
 	}
 }
 
@@ -163,4 +168,10 @@
 blockquote {
 	font-family: $signature-font-family;
 	color: $gray-light;
+}
+
+.photo-credit {
+	@extend .text-right;
+	font-style: italic;
+	font-size: 14px; // Just override here
 }

@@ -3,7 +3,7 @@
     <div class="container gallery-project">
         <div class="row">
             <div class="col-md-8">
-                <img src="/images/androidj_feature.png" />
+                <img src="/images/androidj/feature.png" />
             </div>
             <div class="col-md-4 section-hook">
                 <h1>

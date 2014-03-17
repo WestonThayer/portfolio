@@ -11,7 +11,7 @@
                     Vertigo
                 </h1>
                 <p>
-                    A 2D aerial shooter written from scratch, including a custom rendering engine.
+                    A 2D aerial shooter videogame written from scratch, including a custom rendering engine.
                     I worked with two others on the code as part of a school project. Original
                     soundtrack by me.
                 </p>
