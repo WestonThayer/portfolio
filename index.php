@@ -105,9 +105,8 @@
 					where my creative side shines.
 				</p>
 			</div>
-			<div class="col-md-4">
-				<?php //include('/images/brain.svg') ?>
-				<!--<h1 id="header-ampersand">&amp;</h1>-->
+			<div id="chain-div" class="col-md-4">
+				<?php include('/images/chain.svg') ?>
 			</div>
 			<div class="col-md-4">
 				<h3>Develop</h3>

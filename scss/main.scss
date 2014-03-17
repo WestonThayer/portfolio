@@ -96,12 +96,6 @@
 }
 
 #skills {
-	@media (min-width: $screen-md-min) {
-		background: url('../images/brain.svg');
-		background-size: 300px;
-		background-repeat: no-repeat;
-		background-position: center 200px;
-	}
 
 	.section-hook {
 		text-align: center;
@@ -116,9 +110,20 @@
 		}
 	}
 
-	#svg-brain {
-		path {
-			fill: $gray-light;
+	#chain-div {
+		text-align: center;
+		margin-top: 110px;
+
+		#chain {
+			display: inline-block;
+
+			.chain-orange {
+				fill: #ffc087;
+			}
+
+			.chain-blue {
+				fill: #87cada;
+			}
 		}
 	}
 
@@ -135,6 +140,14 @@
 
 #contact {
 	text-align: center;
+}
+
+#footer-bg-left {
+	margin-bottom: -93px;
+}
+
+#footer-bg-right {
+	float: right;
 }
 
 #footer {
