@@ -105,8 +105,8 @@
 					where my creative side shines.
 				</p>
 			</div>
-			<div id="chain-div" class="col-md-4">
-				<?php include('/images/chain.svg') ?>
+			<div id="chain-div" class="col-md-4" title="Link by David Waschbüsch from The Noun Project">
+				<?php include('images/chain.svg') ?>
 			</div>
 			<div class="col-md-4">
 				<h3>Develop</h3>

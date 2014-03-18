@@ -160,12 +160,16 @@
 	}
 }
 
-#footer-bg-left {
+#footer-bg {
 	margin-bottom: -93px;
-}
 
-#footer-bg-right {
-	float: right;
+	#footer-bg-left {
+		
+	}
+
+	#footer-bg-right {
+		float: right;
+	}
 }
 
 #footer {

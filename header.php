@@ -51,7 +51,7 @@
 					</div>
 					<div class="col-xs-3 col-xs-pull-13 col-sm-3">
 						<a id="feather" href="/#contact">
-							<?php include('/images/feather.svg') ?>
+							<?php include('images/feather.svg') ?>
 						</a>
 					</div>
 				</div>
