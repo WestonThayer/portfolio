@@ -112,7 +112,7 @@
 
 	#chain-div {
 		text-align: center;
-		margin-top: 110px;
+		margin-top: 20px;
 
 		#chain {
 			display: inline-block;
@@ -140,6 +140,14 @@
 
 #contact {
 	text-align: center;
+
+	#contact-buttons {
+		margin-top: 10px;
+
+		a {
+			margin-right: 5px;
+		}
+	}
 }
 
 #footer-bg-left {
@@ -171,10 +179,18 @@
 }
 
 .btn {
-	font-family: $font-family-sans-serif;
+	//font-family: $font-family-sans-serif;
 
 	.btn-icon {
 		display: inline-block;
+	}
+
+	.btn-icon-16 {
+		margin-bottom: 3px;
+	}
+
+	.glyphicon-envelope {
+		font-size: 15px;
 	}
 }
 

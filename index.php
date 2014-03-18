@@ -11,9 +11,9 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>My passion is crafting virtual and physical tools to enable new possibilities and innovations.</h4>
-	            <a class="btn btn-default" href="#work">Work</a>
+	            <a class="btn btn-primary" href="#work">Work</a>
 	            <a class="btn btn-default" href="#skills">Skills</a>
-	            <a class="btn btn-primary" href="#contact">Contact</a>
+	            <a class="btn btn-default" href="#contact">Contact</a>
 	        </div>
 	    </div>
 	</section>
@@ -236,10 +236,19 @@
 <div id="contact" class="section-custom-light">
 	<section class="container">
 		<div class="row">
-			<div class="col-md-4 col-md-push-4">
-				<a class="btn btn-default">Email</a>
-				<a class="btn btn-default">LinkedIn</a>
-				<a class="btn btn-default">GitHub</a>
+			<div class="col-md-12 section-hook">
+				<h1>
+	            	<small>Contact</small>
+	            	Get in Touch
+	            </h1>
+			</div>
+		</div>
+		<div class="row">
+			<div id="contact-buttons" class="col-md-4 col-md-push-4">
+				<a class="btn btn-default" href="mailto:me@westonthayer.com"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+				<a class="btn btn-default" href="http://www.linkedin.com/profile/view?id=331065898" target="_blank">
+					<img class="btn-icon btn-icon-16" src="/images/InBug-16px.png"/> LinkedIn
+				</a>
 			</div>
 		</div>
 	</section>
