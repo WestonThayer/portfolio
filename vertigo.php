@@ -3,7 +3,9 @@
     <div class="container gallery-project">
         <div class="row">
             <div class="col-md-8">
-                <iframe src="//player.vimeo.com/video/29515322" width="750" height="834" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <div class="flex-video">
+                    <iframe src="//player.vimeo.com/video/29515322" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4 section-hook">
                 <h1>

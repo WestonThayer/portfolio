@@ -37,7 +37,9 @@
         </div>
         <div class="row">
             <div class="col-md-8">
-                <iframe width="750" height="563" src="//www.youtube.com/embed/-X7ipKdFCXc?rel=0" frameborder="0" allowfullscreen></iframe>
+                <div class="flex-video">
+                    <iframe src="//www.youtube.com/embed/-X7ipKdFCXc?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4">
             	<p>

@@ -21,6 +21,11 @@
 
 #img-me {
 	margin-top: 30px;
+
+	@media (max-width: $screen-sm-max) {
+		width: 150px;
+		height: 150px;
+	}
 }
 
 .section-hook {
@@ -124,6 +129,11 @@
 			.chain-blue {
 				fill: #87cada;
 			}
+
+			@media (max-width: $screen-sm-max) {
+				width: 150px;
+				height: 150px;
+			}
 		}
 	}
 
@@ -203,4 +213,28 @@ blockquote {
 	@extend .text-right;
 	font-style: italic;
 	font-size: 14px; // Just override here
+}
+
+.flex-video {
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 67.5%;
+	height: 0;
+	margin-bottom: 16px;
+	overflow: hidden;
+
+	.widescreen { padding-bottom: 57.25%; }
+	.vimeo { padding-top: 0; }
+
+	iframe, object, embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+		padding-top: 0;
+	}
 }

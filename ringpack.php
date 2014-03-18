@@ -23,7 +23,9 @@
 		</div>
 		<div class="row">
 			<div class="col-md-8">
-				<iframe width="750" height="422" src="//www.youtube.com/embed/A9Gga67I_hA?rel=0" frameborder="0" allowfullscreen></iframe>
+				<div class="flex-video widescreen">
+					<iframe src="//www.youtube.com/embed/A9Gga67I_hA?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<h2>Research</h2>

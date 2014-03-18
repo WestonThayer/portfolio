@@ -2,10 +2,10 @@
 <div class="section-custom-light">
 	<section class="container">
 	    <div class="row">
-	    	<div class="col-md-3">
+	    	<div class="col-sm-3">
 	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="200" height="200" />
 	        </div>
-	        <div class="col-md-9 section-hook">
+	        <div class="col-sm-9 section-hook">
 	            <h1>
 	            	<small>Hello,</small>
 	            	I'm Weston
@@ -221,7 +221,13 @@
 							if ($i > 0) {
 								echo '</div>';
 							}
-							echo '<div class="col-xs-3 col-md-2">';
+							/*if (($i % 2) == 0) {
+								if ($i > 0) {
+									echo '</div>';
+								}
+								echo '<div class="visible-xs row">';
+							}*/
+							echo '<div class="col-xs-6 col-sm-2" style="height: 300px;">';
 						}
 
 						$skills[$i]->EchoListItem();
