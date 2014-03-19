@@ -37,7 +37,7 @@
         	<div class="container">
 	        	<div class="row navbar-custom" role="navigation">
 					<div class="col-xs-9 col-sm-3">
-		            	<a class="navbar-brand logo-text" href="/">Weston Thayer</a>
+		            	<a class="logo-text" href="/">Weston Thayer</a>
 		            </div>
 		            <div class="col-xs-3 col-sm-3 col-sm-push-6">
 						<a id="feather" href="/#contact">

@@ -1,7 +1,7 @@
 			<div id="footer" class="section-custom-dark">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-4 col-xs-push-4">
+						<div class="col-xs-10 col-xs-push-1">
 							<a class="btn btn-default" href="https://github.com/Cryclops/portfolio" target="_blank">
 								<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> Source
 							</a>

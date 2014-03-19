@@ -1,5 +1,5 @@
 <?php require_once('header.php'); ?>
-<div class="section-custom-light">
+<div class="section-custom-light section-custom-first">
 	<section class="container">
 	    <div class="row">
 	    	<div class="col-sm-3">
@@ -230,7 +230,7 @@
 								}
 								echo '<div class="visible-xs row">';
 							}*/
-							echo '<div class="col-xs-6 col-sm-2" style="height: 300px;">';
+							echo '<div class="col-xs-6 col-sm-2">';
 						}
 
 						$skills[$i]->EchoListItem();

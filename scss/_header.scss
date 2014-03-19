@@ -5,10 +5,15 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: -280px;
+    top: -310px;
     height: 450px;
     overflow: hidden;
     z-index: -999;
+
+    @media (max-width: $screen-xs-max) {
+		// Small screens need a bit less on top
+		top: -318px;
+	}
 
     .oval-base {
 	    border-width: 1px;
@@ -48,7 +53,7 @@
 .navbar-custom {
     font-family: $signature-font-family;
     color: $gray-light;
-    margin-top: 25px;
+    margin-top: 5px;
 
     @media (max-width: $screen-xs-max) {
 		// Small screens don't need that margin
@@ -65,16 +70,20 @@
 		padding-left: 0px;
     }
 
+    .logo-text:hover {
+    	text-decoration: none;
+    }
+
     .nav-custom {
     	float: left;
     	margin-bottom: 0px;
-    	padding-top: 45px;
+    	padding-top: 33px;
     	padding-left: 0px;
 
     	@media (max-width: $screen-xs-max) {
 			// Small screens need different placement on powerlines
 			padding-left: 25px;
-			padding-top: 20px;
+			padding-top: 3px;
 		}
 
     	li {
@@ -143,6 +152,11 @@
 			height: 50px;
 			background: url('../images/bird-sprite.png');
 			background-repeat: no-repeat;
+
+			@media (max-width: $screen-xs-max) {
+				// Small screens need a bit less on top
+				margin-top: 5px;
+			}
     	}
     }
 
@@ -163,7 +177,7 @@
 
     	@media (max-width: $screen-xs-max) {
 			// Small screens need a bit extra on top
-			margin-top: 15px;
+			margin-top: 5px;
 		}
     }
 }

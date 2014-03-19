@@ -5,7 +5,7 @@
 // Main styles
 
 .section-custom {
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 50px;
 }
 
@@ -17,6 +17,23 @@
 	@extend .section-custom;
 	background-color: $color-dark;
 	color: $color-white;
+
+	a:hover {
+		color: lighten($link-color, 15%);
+	}
+
+	.btn-default {
+		background-color: $gray-light;
+		border-color: $gray;
+	}
+
+	.btn-default:hover {
+		background-color: #fff;
+	}
+}
+
+.section-custom-first {
+	padding-top: 0px;
 }
 
 #img-me {
@@ -25,6 +42,11 @@
 	@media (max-width: $screen-sm-max) {
 		width: 150px;
 		height: 150px;
+	}
+
+	@media (max-width: $screen-xs-max) {
+		// Small screens need a bit less on top
+		margin-top: 5px;
 	}
 }
 
@@ -169,15 +191,6 @@
 	// style the github button
 	a {
 		color: black;
-	}
-
-	.btn-default {
-		background-color: $gray-light;
-		border-color: $gray;
-	}
-
-	.btn-default:hover {
-		background-color: $gray;
 	}
 }
 
