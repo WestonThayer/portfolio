@@ -36,8 +36,8 @@
             <div class="col-md-4">
                 <p>
                     <em>
-                    	To analyze our qualitative data after the study, we affinity diagramed our notes,
-                        looking for patterns.
+                    	To analyze our qualitative data after the study, we looked for patterns
+                        by affinity diagramming our notes.
                     </em>
                 </p>
             </div>

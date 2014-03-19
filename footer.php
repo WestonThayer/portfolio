@@ -1,7 +1,3 @@
-			<div id="row footer-bg">
-				<img id="footer-bg-left" src="/images/bottom-bg-left.png" />
-				<img id="footer-bg-right" src="/images/bottom-bg-right.png" />
-			</div>
 			<div id="footer" class="section-custom-dark">
 				<div class="container">
 					<div class="row">

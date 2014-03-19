@@ -10,7 +10,10 @@
 	            	<small>Hello,</small>
 	            	I'm Weston
 	            </h1>
-	            <h4>My passion is crafting virtual and physical tools to enable new possibilities and innovations.</h4>
+	            <h4>
+	            	I love designing and engineering delightful apps, websites, and physical products
+	            	from end-to-end.
+	            </h4>
 	            <a class="btn btn-primary" href="#work">Work</a>
 	            <a class="btn btn-default" href="#skills">Skills</a>
 	            <a class="btn btn-default" href="#contact">Contact</a>

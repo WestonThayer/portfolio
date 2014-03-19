@@ -39,20 +39,20 @@
 					<div class="col-xs-9 col-sm-3">
 		            	<a class="navbar-brand logo-text" href="/">Weston Thayer</a>
 		            </div>
-		            <div class="col-xs-6 col-sm-3">
+		            <div class="col-xs-3 col-sm-3 col-sm-push-6">
+						<a id="feather" href="/#contact">
+							<?php include('images/feather.svg') ?>
+						</a>
+					</div>
+		            <div class="col-xs-8 col-sm-3 col-sm-pull-3">
 						<ul class="nav-custom">
 							<li><a href="/" class="item1">home<span></span></a></li>
 							<li><a href="http://cryclops.com" target="_blank" class="item2">blog<span></span></a></li>
 							<li><a href="/images/resume.pdf" target="_blank" class="item3">resume<span></span></a></li>
 						</ul>
 					</div>
-					<div class="col-xs-3 col-sm-3">
+					<div class="col-xs-3 col-sm-3 col-sm-pull-3">
 						<a id="logo" href="/media/"><span></span></a>
-					</div>
-					<div class="col-xs-3 col-xs-pull-13 col-sm-3">
-						<a id="feather" href="/#contact">
-							<?php include('images/feather.svg') ?>
-						</a>
 					</div>
 				</div>
 			</div>
