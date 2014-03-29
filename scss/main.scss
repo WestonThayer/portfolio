@@ -4,6 +4,10 @@
 
 // Main styles
 
+p {
+	color: $gray;
+}
+
 .section-custom {
 	padding-top: 25px;
 	padding-bottom: 50px;
@@ -94,7 +98,10 @@
 		    padding-top: 10px;
 		    padding-left: 10px;
 		    font-family: $font-family-sans-serif;
-		    color: $gray-lighter;
+		    
+		    p {
+		    	color: $gray-lighter;
+		    }
 		}
 	}
 
