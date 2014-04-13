@@ -254,6 +254,9 @@
 		</div>
 		<div class="row">
 			<div id="contact-buttons" class="col-md-4 col-md-push-4">
+				<a class="btn btn-default" href="http://www.quora.com/Weston-Thayer">
+					<img class="btn-icon btn-icon-16" src="/images/quora-16px.png"/> Quora
+				</a>
 				<a class="btn btn-default" href="mailto:me@westonthayer.com"><span class="glyphicon glyphicon-envelope"></span> Email</a>
 				<a class="btn btn-default" href="http://www.linkedin.com/profile/view?id=331065898" target="_blank">
 					<img class="btn-icon btn-icon-16" src="/images/InBug-16px.png"/> LinkedIn
