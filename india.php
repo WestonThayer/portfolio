@@ -47,7 +47,7 @@
         </div>
         <div class="row">
 			<div class="col-md-4 col-md-push-4 bottom-finish">
-				<a class="btn btn-default" href="https://github.com/Cryclops/RingPack" target="_blank">
+				<a class="btn btn-default" href="https://github.com/Cryclops/IndiaTablet" target="_blank">
 					<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> GitHub
 				</a>
 			</div>
