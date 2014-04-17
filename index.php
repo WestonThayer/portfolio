@@ -263,6 +263,11 @@
 				</a>
 			</div>
 		</div>
+		<div class="row">
+			<div id="feather-big">
+				<?php include('images/feather.svg') ?>
+			</div>
+		</div>
 	</section>
 </div>
 <?php require_once('footer.php'); ?>
