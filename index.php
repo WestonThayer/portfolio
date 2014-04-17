@@ -209,6 +209,7 @@
 					new Skill(false, 'https://www.ableton.com/', "Ableton Live"),
 					new Skill(true, '', 'Development'),
 					new Skill(false, 'http://www.visualstudio.com/', 'Visual Studio'),
+					new Skill(false, 'http://en.wikipedia.org/wiki/Android_Studio', 'Android Studio'),
 					new Skill(false, 'https://www.eclipse.org/', 'Eclipse'),
 					new Skill(false, 'https://unity3d.com/', 'Unity3D'),
 					new Skill(false, 'https://developer.apple.com/xcode/', 'Xcode'),
