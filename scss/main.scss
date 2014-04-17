@@ -40,6 +40,10 @@ p {
 	padding-top: 0px;
 }
 
+.section-custom-last {
+	margin-bottom: 0px;
+}
+
 #img-me {
 	margin-top: 30px;
 
@@ -179,7 +183,6 @@ p {
 
 #contact {
 	text-align: center;
-	margin-bottom: 100px;
 
 	#contact-buttons {
 		margin-top: 10px;
@@ -199,12 +202,28 @@ p {
 
 #footer {
 	margin-bottom: 0px;
-	padding-top: 50px;
+	margin-top: 50px;
 	text-align: center;
 
 	// style the github button
 	a {
 		color: black;
+		margin-top: 50px;
+	}
+
+	.grass {
+		@media (max-width: $screen-xs-max) {
+			// Small screens shouldn't show
+			visibility: hidden;
+		}
+	}
+
+	#grass-left {
+		float: left;
+	}
+
+	#grass-right {
+		float: right;
 	}
 }
 

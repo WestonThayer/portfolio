@@ -242,7 +242,7 @@
 		</div>
 	</section>
 </div>
-<div id="contact" class="section-custom-light">
+<div id="contact" class="section-custom-light section-custom-last">
 	<section class="container">
 		<div class="row">
 			<div class="col-md-12 section-hook">
