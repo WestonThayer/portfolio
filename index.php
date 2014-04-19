@@ -65,9 +65,9 @@
 				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
 				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
 				new ProjectBox('/projects/usability/', '/images/usability_feature.png', 'Usability Testing'),
-				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java'),
+				new ProjectBox('/projects/soliloquy/', '/images/soliloquy_feature.png', 'Soliloquy for Android'),
 				new ProjectBox('/projects/kiteboard/', '/images/kiteboard_feature.jpg', 'Kiteboard'),
-				new ProjectBox('/projects/surfboard/', '/images/surfboard_feature.jpg', 'Surfboard')
+				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java')
 			);
 		?>
 		<div class="row gallery">

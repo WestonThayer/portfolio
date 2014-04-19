@@ -177,6 +177,7 @@ p {
 
 		blockquote {
 			border-left: none;
+			font-family: $signature-font-family;
 		}
 	}
 }
@@ -244,7 +245,7 @@ p {
 }
 
 blockquote {
-	font-family: $signature-font-family;
+	
 	color: $gray-light;
 }
 
