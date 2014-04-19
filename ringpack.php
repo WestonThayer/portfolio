@@ -78,12 +78,14 @@
 			<div class="col-md-4">
 				<h2>Evaluation</h2>
 				<p>
-					Initially, RingPack was going to ship with a handful of preselected tones. After talking with
+					Initially, RingPack was going to ship with a handful of preselected tones. After testing with
 					users, it became clear that this one-size-fits-all approach would fall short. The idea of
 					installable packs emerged from the feedback.
 				</p>
 				<p>
-					After testing the app on friends, I found that the <code>Get More</code> feature was
+					Through
+					<a href="https://developers.google.com/analytics/devguides/collection/android/" target="_blank">Google Analytics</a>
+					, I found that the <code>Get More</code> feature was
 					<a href="http://www.jnd.org/dn.mss/gestural_interfaces_a_step_backwards_in_usability_6.html" target="_blank">undiscoverable</a>
 					under the <code>MENU</code> key. Moving <code>Get More</code> onto the main screen
 					helped people jump right into the customization workflow.
