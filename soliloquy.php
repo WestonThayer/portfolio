@@ -21,10 +21,14 @@
                 <p>
                     Using
                     <a href="http://www.ibiblio.org/xml/examples/shakespeare/" target="_blank">Jon
-                    Bosak's Shakespear in XML</a>, this app asks you to find out. The soliloquies
+                    Bosak's Shakespear in XML</a>, this app asks <em>you</em> to find out. The soliloquies
                     in each play have their position and length highlighted. Re-order the list
                     to search for patterns. Do comedies always end with a big speech? Do tragedies
                     start with one?
+                </p>
+                <br/>
+                <p>
+                    <i>Created as an exercise in data visualization and interaction design.</i>
                 </p>
             </div>
         </div>
