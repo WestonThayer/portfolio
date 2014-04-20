@@ -136,8 +136,15 @@
 		</div>
 	</section>
 </div>
-<div class="section-custom-dark">
+<div id="toolbox" class="section-custom-dark">
 	<section class="container">
+		<div class="row">
+			<div class="col-md-12 section-hook">
+				<h1>
+	            	<small>My Toolbox</small>
+	            </h1>
+			</div>
+		</div>
 		<div id="skills-list" class="row">
 			<?php
 				class Skill {
