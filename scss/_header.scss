@@ -172,8 +172,10 @@
     	border: none;
     }
 
-    #feather {
+    #feather svg {
     	float: right;
+        width: 15px;
+        height: 15px;
 
     	@media (max-width: $screen-xs-max) {
 			// Small screens need a bit extra on top
