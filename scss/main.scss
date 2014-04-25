@@ -166,22 +166,15 @@ p {
 			}
 		}
 	}
-
-	.quote {
-		margin-top: 25px;
-		margin-bottom: 25px;
-		text-align: center;
-
-		blockquote {
-			border-left: none;
-			font-family: $signature-font-family;
-		}
-	}
 }
 
 #toolbox {
 	.section-hook {
 		text-align: center;
+
+		h1 {
+			border: none;
+		}
 	}
 }
 

@@ -11,7 +11,7 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>
-	            	I love designing and engineering delightful apps, websites, and experiences
+	            	I love designing and engineering engaging apps, websites, and experiences
 	            	from end-to-end.
 	            </h4>
 	            <a class="btn btn-primary" href="#work">Work</a>
@@ -84,8 +84,8 @@
 		</div>
 	</section>
 </div>
-<div id="skills" class="section-custom-light">
-	<section class="container">
+<div class="section-custom-light">
+	<section id="skills" class="container">
 		<div class="row">
 			<div class="col-md-12 section-hook">
 				<h1>
@@ -127,21 +127,14 @@
 				</p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12 quote">
-				<blockquote>
-					I like to wear many hats.
-				</blockquote>
-			</div>
-		</div>
 	</section>
 </div>
-<div id="toolbox" class="section-custom-dark">
-	<section class="container">
+<div class="section-custom-dark">
+	<section id="toolbox" class="container">
 		<div class="row">
 			<div class="col-md-12 section-hook">
 				<h1>
-	            	<small>My Toolbox</small>
+	            	<small>Toolbox</small>
 	            </h1>
 			</div>
 		</div>
@@ -259,8 +252,8 @@
 		</div>
 	</section>
 </div>
-<div id="contact" class="section-custom-light section-custom-last">
-	<section class="container">
+<div class="section-custom-light section-custom-last">
+	<section id="contact" class="container">
 		<div class="row">
 			<div class="col-md-12 section-hook">
 				<h1>
