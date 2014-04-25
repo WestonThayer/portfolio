@@ -55,6 +55,10 @@
 
     font-family: $signature-font-family;
 
+    @media (max-width: $screen-sm-min) {
+        background-color: $color-white;
+    }
+
     @media (min-width: $screen-sm-min) {
         background-color: transparent;
         border-color: transparent;
