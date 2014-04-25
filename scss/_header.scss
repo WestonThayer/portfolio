@@ -68,10 +68,10 @@
 		font-size: $font-size-h4;
 		white-space: nowrap;
 		padding-left: 0px;
-    }
 
-    .logo-text:hover {
-    	text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
     }
 
     .nav-custom {

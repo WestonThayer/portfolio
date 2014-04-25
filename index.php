@@ -11,7 +11,7 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>
-	            	I love designing and engineering delightful apps, websites, and physical products
+	            	I love designing and engineering delightful apps, websites, and experiences
 	            	from end-to-end.
 	            </h4>
 	            <a class="btn btn-primary" href="#work">Work</a>
@@ -108,8 +108,8 @@
 					where my creative side shines.
 				</p>
 			</div>
-			<div id="chain-div" class="col-md-4" title="Link by David Waschbüsch from The Noun Project">
-				<?php include('images/chain.svg') ?>
+			<div id="circling-birds-div" class="col-md-4">
+				<?php include('images/circling_birds.svg') ?>
 			</div>
 			<div class="col-md-4">
 				<h3>Develop</h3>

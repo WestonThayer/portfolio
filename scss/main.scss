@@ -29,10 +29,10 @@ p {
 	.btn-default {
 		background-color: $gray-light;
 		border-color: $gray;
-	}
 
-	.btn-default:hover {
-		background-color: #fff;
+		&:hover {
+			background-color: #fff;
+		}
 	}
 }
 
@@ -107,10 +107,10 @@ p {
 		    	color: $gray-lighter;
 		    }
 		}
-	}
 
-	.gallery-box:hover .caption {
-		visibility: visible;
+		&:hover .caption {
+			visibility: visible;
+		}
 	}
 }
 
@@ -148,19 +148,16 @@ p {
 		}
 	}
 
-	#chain-div {
+	#circling-birds-div {
 		text-align: center;
 		margin-top: 20px;
 
-		#chain {
-			display: inline-block;
-
-			.chain-orange {
-				fill: #ffc087;
-			}
-
-			.chain-blue {
-				fill: #87cada;
+		svg {
+			width: 300px;
+			height: 300px;
+			
+			path {
+				fill: $color-light;
 			}
 
 			@media (max-width: $screen-sm-max) {
@@ -204,10 +201,6 @@ p {
 		margin-top: 50px;
 		width: 150px;
 		height: 150px;
-
-		#body {
-			fill: $color-dark;
-		}
 	}
 }
 
@@ -251,6 +244,16 @@ p {
 
 	.glyphicon-envelope {
 		font-size: 15px;
+	}
+}
+
+.btn-primary {
+	background-color: $color-dark;
+	border-color: black;
+
+	&:hover {
+		background-color: $gray-light;
+		border-color: $gray;
 	}
 }
 
