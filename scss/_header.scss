@@ -10,9 +10,9 @@
     overflow: hidden;
     z-index: -999;
 
-    @media (max-width: $screen-xs-max) {
-		// Small screens need a bit less on top
-		top: -318px;
+    @media (max-width: $screen-sm-min) {
+		// hide on small screens
+        visibility: hidden;
 	}
 
     .oval-base {
@@ -50,136 +50,98 @@
 }
 
 // The title and navigation
-.navbar-custom {
+.navbar-birds {
+    @extend .navbar-default;
+
     font-family: $signature-font-family;
-    color: $gray-light;
-    margin-top: 5px;
 
-    @media (max-width: $screen-xs-max) {
-		// Small screens don't need that margin
-		margin-top: 0px;
-	}
+    @media (min-width: $screen-sm-min) {
+        background-color: transparent;
+        border-color: transparent;
 
-    a {
-    	color: inherit;
-    }
-
-    .logo-text {
-		font-size: $font-size-h4;
-		white-space: nowrap;
-		padding-left: 0px;
-
-        &:hover {
-            text-decoration: none;
+        .navbar-header {
+            width: 25%;
         }
-    }
 
-    .nav-custom {
-    	float: left;
-    	margin-bottom: 0px;
-    	padding-top: 33px;
-    	padding-left: 0px;
+        .birds-3 {
+            width: 25%;
+        }
 
-    	@media (max-width: $screen-xs-max) {
-			// Small screens need different placement on powerlines
-			padding-left: 25px;
-			padding-top: 3px;
-		}
+        .birds-1 {
+            width: 25%;
 
-    	li {
-    		float: left;
-    		font-size: 14px; // Override just here to keep header small
-    		text-align: center;
-    		list-style: none;
+            li {
+                float: right;
+            }
+        }
 
-    		a {
-    			display: block;
+        li {
+            a {
+                font-size: 14px;
+                padding-left: 0px;
+                padding-right: 0px;
 
-    			span {
-    				display: block;
-    				height: 66px;
-					width: 40px;
-					background-image: url('../images/bird-menu-sprite.png');
-					background-repeat: no-repeat;
-				    margin-top: 10px;
-    			}
-    		}
+                span {
+                    display: block;
+                    height: 66px;
+                    width: 40px;
+                    background-image: url('../images/bird-menu-sprite.png');
+                    background-repeat: no-repeat;
+                    margin-top: 30px;
+                }
+            }
 
-    		a.item1 {
-    			span {
-    				background-position: 0px 0px;
-    			}
-    		}
+            a.item1 {
+                span {
+                    background-position: 0px 0px;
+                }
+            }
 
-    		a:hover.item1 {
-    			span {
-    				background-position: 0px -67px;
-    			}
-    		}
+            a:hover.item1 {
+                span {
+                    background-position: 0px -67px;
+                }
+            }
 
-    		a.item2 {
-    			span {
-    				background-position: 0px -131px;
-    			}
-    		}
+            a.item2 {
+                span {
+                    background-position: 0px -131px;
+                }
+            }
 
-    		a:hover.item2 {
-    			span {
-    				background-position: 0px -198px;
-    			}
-    		}
+            a:hover.item2 {
+                span {
+                    background-position: 0px -198px;
+                }
+            }
 
-    		a.item3 {
-    			span {
-    				background-position: 0px -264px;
-    			}
-    		}
+            a.item3 {
+                span {
+                    background-position: 0px -264px;
+                }
+            }
 
-    		a:hover.item3 {
-    			span {
-    				background-position: 0px -330px;
-    			}
-    		}
-    	}
-    }
+            a:hover.item3 {
+                span {
+                    background-position: 0px -330px;
+                }
+            }
+        }
 
-    a#logo {
-    	span {
-    		float: right;
-    		display: block;
-    		margin-top: 25px;
-    		width: 70px;
-			height: 50px;
-			background: url('../images/bird-sprite.png');
-			background-repeat: no-repeat;
+        a#logo {
+            span {
+                width: 70px;
+                height: 50px;
+                background: url('../images/bird-sprite.png');
+                background-repeat: no-repeat;
+                margin-top: 15px;
+            }
+        }
 
-			@media (max-width: $screen-xs-max) {
-				// Small screens need a bit less on top
-				margin-top: 5px;
-			}
-    	}
-    }
-
-    a:hover#logo {
-    	span {
-    		background-position: 0px -50px;
-    	}
-    }
-
-    button {
-    	color: inherit;
-    	float: right;
-    	border: none;
-    }
-
-    #feather svg {
-    	float: right;
-        width: 15px;
-        height: 15px;
-
-    	@media (max-width: $screen-xs-max) {
-			// Small screens need a bit extra on top
-			margin-top: 5px;
-		}
+        a:hover#logo {
+            span {
+                background-position: 0px -50px;
+            }
+        }
     }
 }

@@ -34,25 +34,36 @@
             <div class="oval-base" id="oval-3"></div>
         </div>
         <div class="content">
-        	<div class="container">
-	        	<div class="row navbar-custom" role="navigation">
-					<div class="col-xs-9 col-sm-3">
-		            	<a class="logo-text" href="/">Weston Thayer</a>
-		            </div>
-		            <div class="col-xs-3 col-sm-3 col-sm-push-6">
-						<a id="feather" href="/#contact">
-							<?php include('images/feather.svg') ?>
-						</a>
-					</div>
-		            <div class="col-xs-8 col-sm-3 col-sm-pull-3">
-						<ul class="nav-custom">
-							<li><a href="/" class="item1">home<span></span></a></li>
-							<li><a href="http://cryclops.com" target="_blank" class="item2">blog<span></span></a></li>
-							<li><a href="/images/resume.pdf" target="_blank" class="item3">resume<span></span></a></li>
-						</ul>
-					</div>
-					<div class="col-xs-3 col-sm-3 col-sm-pull-3">
-						<a id="logo" href="/media/"><span></span></a>
-					</div>
+        	<nav class="navbar navbar-birds">
+	        	<div class="container">
+	        		<!-- Mobile display -->
+	        		<div class="navbar-header">
+	        			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+	        				<span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+	        			</button>
+	        			<a class="navbar-brand" href="#">Weston Thayer</a>
+	        		</div>
+
+	        		<div id="navbar-collapse-1" class="collapse navbar-collapse">
+	        			<ul class="nav navbar-nav birds-3">
+	        				<li>
+	        					<a href="#" class="item1">home<span></span></a>
+	        				</li>
+	        				<li>
+	        					<a href="http://cryclops.com" target="_blank" class="item2">blog<span></span></a>
+	        				</li>
+	        				<li>
+	        					<a href="/images/resume.pdf" target="_blank" class="item3">resume<span></span></a>
+	        				</li>
+	        			</ul>
+	        			<ul class="nav navbar-nav birds-1">
+	        				<li>
+	        					<a id="logo" href="/media/"><span></span></a>
+	        				</li>
+	        			</ul>
+	        		</div>
 				</div>
-			</div>
+			</nav>
