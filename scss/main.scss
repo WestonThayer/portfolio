@@ -40,8 +40,9 @@ p {
 	}
 }
 
-.section-custom-first {
-	min-height: 100%;
+#hello {
+	padding-top: 50px;
+	padding-bottom: 100px;
 
 	@media (max-width: $screen-sm-min) {
 		// less padding on small screens
@@ -174,6 +175,9 @@ p {
 }
 
 #toolbox {
+	padding-top: 25px;
+	padding-bottom: 25px;
+
 	.section-hook {
 		text-align: center;
 
@@ -204,28 +208,13 @@ p {
 
 #footer {
 	margin-bottom: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	text-align: center;
 
 	// style the github button
 	a {
 		color: black;
 		margin-top: 50px;
-	}
-
-	.grass {
-		@media (max-width: $screen-xs-max) {
-			// Small screens shouldn't show
-			visibility: hidden;
-		}
-	}
-
-	#grass-left {
-		float: left;
-	}
-
-	#grass-right {
-		float: right;
 	}
 }
 

@@ -1,15 +1,10 @@
-			<div id="footer">
-				<img class="grass" id="grass-left" src="/images/bottom-bg-left.png"/>
-				<img class="grass" id="grass-right" src="/images/bottom-bg-right.png"/>
-				<div class="clearfix"></div>
-				<div class="section-custom-dark">
-					<div class="container">
-						<div class="row">
-							<div class="col-xs-10 col-xs-push-1">
-								<a class="btn btn-default" href="https://github.com/Cryclops/portfolio" target="_blank">
-									<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> Source
-								</a>
-							</div>
+			<div id="footer" class="section-custom-dark">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-10 col-xs-push-1">
+							<a class="btn btn-default" href="https://github.com/Cryclops/portfolio" target="_blank">
+								<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> Source
+							</a>
 						</div>
 					</div>
 				</div>
