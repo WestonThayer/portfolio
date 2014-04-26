@@ -44,13 +44,13 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 	        			</button>
-	        			<a class="navbar-brand" href="#">Weston Thayer</a>
+	        			<a class="navbar-brand" href="/">Weston Thayer</a>
 	        		</div>
 
 	        		<div id="navbar-collapse-1" class="collapse navbar-collapse">
 	        			<ul class="nav navbar-nav birds-3">
 	        				<li>
-	        					<a href="#" class="item1">home<span></span></a>
+	        					<a href="/" class="item1">home<span></span></a>
 	        				</li>
 	        				<li>
 	        					<a href="http://cryclops.com" target="_blank" class="item2">blog<span></span></a>
