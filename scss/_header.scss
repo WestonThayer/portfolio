@@ -9,10 +9,11 @@
     height: 450px;
     overflow: hidden;
     z-index: -999;
+    visibility: hidden;
 
-    @media (max-width: $screen-sm-min) {
+    @media (min-width: $screen-sm-min) {
 		// hide on small screens
-        visibility: hidden;
+        visibility: visible;
 	}
 
     .oval-base {
