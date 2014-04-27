@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+    <?php require_once('header.php'); ?>
 <div class="section-custom-light">
     <div class="container gallery-project">
         <div class="row">
@@ -20,15 +20,21 @@
                     </em>
                 </h4>
                 <p>
-                    A piece of the
-                    <a href="http://www.id4learning.com/laxmi.html" target="_blank">laXmi solution</a>,
-                    designed to bring illiterate Indian women out of poverty through microfinancing.
+                    A solution to help illiterate women living in rural India use micro-financing to escape
+                    poverty.
+                    <a href="http://www.id4learning.com/laxmi.html" target="_blank">LaXmi</a>
+                    is a board game and an app that NGO workers use to kickstart a community's
+                    micro-financing group.
                 </p>
                 <p>
-                	I worked with two Industrial Designers at Virginia Tech to design and build an app for the $50
+                	I worked with two Industrial Designers at Virginia Tech to design and build the app for the $50
                 	<a href="http://en.wikipedia.org/wiki/Aakash_(tablet)" target="_blank">Aakash tablet</a>.
-                	The laXmi system has been officially adopted by the
-                	<a href="http://wcd.nic.in/" target="_blank">Ministry of Women and Child Development</a>.
+                </p>
+                <p>
+                    <i>
+                        <a href="http://www.quora.com/What-are-the-best-anecdotes-about-how-research-has-led-to-groundbreaking-UX-UI-innovations" target="_blank">Read
+                        about our user research on Quora</a>.
+                        </i>
                 </p>
             </div>
         </div>
@@ -39,7 +45,7 @@
             <div class="col-md-4">
                 <p>
                     <em>
-                    	The app acts as a virtual accountant, assisting an NGO facilitator while they
+                    	The app is a virtual accountant, assisting an NGO worker while they
                         train a group of women how microfinancing works.
                     </em>
                 </p>

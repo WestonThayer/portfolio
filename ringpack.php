@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+	<?php require_once('header.php'); ?>
 <div class="section-custom-light">
 	<div class="container gallery-project">
 		<div class="row">
@@ -17,7 +17,8 @@
 					</em>
 				</h4>
 				<p>
-					An app that makes your phone <em>yours</em>, even when it's still in your pocket.
+					RingPack switches out your text ringtone each time a text is received. Each ringtone belongs
+					to a Pack of related sounds. You can download, create, and share Packs with anyone!
 				</p>
 	        </div>
 		</div>

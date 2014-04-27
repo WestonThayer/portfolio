@@ -14,7 +14,7 @@
 	            	I love designing and engineering engaging apps, websites, and experiences
 	            	from end-to-end.
 	            </h4>
-	            <a class="btn btn-primary" href="#work">Work</a>
+	            <a class="btn btn-default" href="#work">Work</a>
 	            <a class="btn btn-default" href="#skills">Skills</a>
 	            <a class="btn btn-default" href="#contact">Contact</a>
 	        </div>
@@ -64,8 +64,8 @@
 				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'AR with Unity3D'),
 				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
 				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
-				new ProjectBox('/projects/usability/', '/images/usability_feature.png', 'Usability Testing'),
 				new ProjectBox('/projects/soliloquy/', '/images/soliloquy_feature.png', 'Soliloquy for Android'),
+				new ProjectBox('/projects/usability/', '/images/usability_feature.png', 'Usability Testing'),
 				new ProjectBox('/projects/kiteboard/', '/images/kiteboard_feature.jpg', 'Kiteboard'),
 				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java')
 			);

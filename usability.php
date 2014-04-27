@@ -11,21 +11,22 @@
                     Usability Testing
                 </h1>
                 <p>
-                	<i>
-                		Note: to honor a confidentiality agreement with our client, the infographic
-                        omits some information and graphics.
-                	</i>
-                </p>
-                <p>
-                    I worked with two other students at the University of Washington evaluate
-                    the usability of a digital parental control system, still in the early
-                    prototyping stages. We created a paper prototype from the mockups our
+                    I worked with two students at
+                    <a href="http://www.washington.edu/" target="_blank">UW</a>
+                    to evaluate a digital parental control system for Intel. We created
+                    a paper prototype from the mockups our
                     client supplied and conducted a usability study with them. I acted as
                     a moderator and notetaker.
                 </p>
                 <p>
                     I created this infographic to provide a quick summary to our client, with
                     more rich information in a written report.
+                </p>
+                <p>
+                    <i>
+                        Note: to honor a confidentiality agreement with our client, the infographic
+                        omits some information and graphics.
+                    </i>
                 </p>
             </div>
         </div>
@@ -36,7 +37,7 @@
             <div class="col-md-4">
                 <p>
                     <em>
-                    	To analyze our qualitative data after the study, we looked for patterns
+                    	To make sense of our qualitative data after the study, we looked for patterns
                         by affinity diagramming our notes.
                     </em>
                 </p>

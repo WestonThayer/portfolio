@@ -11,14 +11,22 @@
                     Augmented Reality Prize
                 </h1>
                 <p>
-                    A virtual
-                    <a href="http://1.bp.blogspot.com/-3UfGzq6Vbq4/TaetXY8-6BI/AAAAAAAAEVI/fLRR_74BFSY/s1600/cracker.jpg" target="_blank">Cracker
-                    Jack prize</a>. Point your phone at the cereal box to find out if you&#39;re a winner! Watch as a virtual world emerges.
+                    A proof-of-concept
+                    <a href="http://fastfooddude.files.wordpress.com/2012/04/cracker1.jpg" target="_blank">Cracker
+                    Jack prize</a> designed to promote Qualcomm's mobile
+                    <a href="http://www.qualcomm.com/snapdragon" target="_blank">Snapdragon</a>
+                    processor. This app would be featured on a cereal box.
                 </p>
                 <p>
-                    Build with the
-                    <a href="https://developer.qualcomm.com/develop/mobile-technologies/augmented-reality" target="_blank">QCAR SDK</a> in
-                    <a href="http://unity3d.com/" target="_blank">Unity3D</a> for a Qualcomm intern project.
+                    Start the app, point the camera at a special graphic on the cereal box, and watch as a digital world emerges
+                    to tell you if you're a winner.
+                </p>
+                <p>
+                    <i>
+                        Built with the
+                        <a href="https://developer.qualcomm.com/develop/mobile-technologies/augmented-reality" target="_blank">QCAR SDK</a> in
+                        <a href="http://unity3d.com/" target="_blank">Unity3D</a> for a Qualcomm intern project.
+                    </i>
                 </p>
             </div>
         </div>
