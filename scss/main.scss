@@ -87,33 +87,35 @@ p {
 	margin-top: 10px; // Propper padding below the .section-hook
 
 	.gallery-box {
-
-		img {
-			@extend .img-responsive;
-			margin-bottom: 18px;
-		}
+		overflow: hidden;
+		margin-bottom: 18px;
 
 		.img-overlay {
 			position: relative;
-		}
 
-		.caption {
-			visibility: hidden;
-			position: absolute;
-		    bottom: 0px;
-		    width: 100%;
-		    background-color: black;//rgba(0,0,0,0.6);
-		    padding-top: 10px;
-		    padding-left: 10px;
-		    font-family: $font-family-sans-serif;
-		    
-		    p {
-		    	color: $gray-lighter;
-		    }
-		}
+			img {
+				@extend .img-responsive;
+			}
 
-		&:hover .caption {
-			visibility: visible;
+			.caption {
+				position: absolute;
+			    bottom: -50px;
+			    height: 50px;
+			    width: 100%;
+			    @include transition-property(all); // don't use 'transform', see https://github.com/chriseppstein/compass/issues/289
+	  			@include transition-duration(300ms);
+			    background-color: black;//rgba(0,0,0,0.6);
+			    padding-top: 10px;
+			    padding-left: 10px;
+			    
+			    p {
+			    	color: $gray-lighter;
+			    }
+			}
+
+			&:hover .caption {
+				@include translateY(-100%);
+			}
 		}
 	}
 }

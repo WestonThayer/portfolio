@@ -48,9 +48,9 @@
 					          <a href="' . $this->Link . '">
 					              <div class="img-overlay">
 					                  <img src="' . $this->Image . '" />
-					                  <div class="caption">
+					                  <span class="caption">
 					                      <p>' . $this->Caption . '</p>
-					                  </div>
+					                  </span>
 					              </div>
 					          </a>
 					      </div>';
