@@ -12,6 +12,10 @@ p {
 	color: $gray;
 }
 
+.btn {
+	border-bottom: 2px solid $btn-default-border;
+}
+
 .section-custom {
 	padding-top: 50px;
 	padding-bottom: 50px;
