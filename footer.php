@@ -17,7 +17,7 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	    <script src="../../dist/js/bootstrap.min.js"></script>
 	    <script src="../../dist/js/collapse.min.js"></script>
-	    <script src="../../dist/js/gfycat_test.js"></script>
+	    <script src="../../dist/js/gfycat_test.min.js"></script>
 	    <script type="text/javascript" src="/js/SmoothAnchor.min.js"></script>
 	    <script type="text/javascript">
 	    	$(document).ready(function() {
