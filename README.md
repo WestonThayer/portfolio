@@ -3,6 +3,7 @@
 This is just a nice place where my portfolio site lives. Feel free to poke around. It's built with:
 
 * [bootstrap-sass](https://github.com/twbs/bootstrap-sass)
+* [Compass](http://compass-style.org/)
 * [Sass](http://sass-lang.com/)
 * [SmoothAnchors](https://github.com/alextrob/SmoothAnchors)
 * PHP
