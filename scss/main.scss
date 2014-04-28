@@ -55,6 +55,8 @@ p {
 }
 
 #img-me {
+
+
 	@media (max-width: $screen-sm-max) {
 		width: 150px;
 		height: 150px;
@@ -90,30 +92,24 @@ p {
 		overflow: hidden;
 		margin-bottom: 18px;
 
-		.img-overlay {
+		figure {
 			position: relative;
 
-			img {
-				@extend .img-responsive;
-			}
-
-			.caption {
+			figcaption {
 				position: absolute;
-			    bottom: -50px;
-			    height: 50px;
-			    width: 100%;
-			    @include transition-property(all); // don't use 'transform', see https://github.com/chriseppstein/compass/issues/289
+				height: 50px;
+				right: 0;
+				bottom: -50px;
+				left: 0;
+				@include transition-property(all); // don't use 'transform', see https://github.com/chriseppstein/compass/issues/289
 	  			@include transition-duration(300ms);
-			    background-color: black;//rgba(0,0,0,0.6);
+				background-color: black;//rgba(0,0,0,0.6);
 			    padding-top: 10px;
 			    padding-left: 10px;
-			    
-			    p {
-			    	color: $gray-lighter;
-			    }
+			    color: $gray-lighter;
 			}
 
-			&:hover .caption {
+			&:hover figcaption {
 				@include translateY(-100%);
 			}
 		}

@@ -46,12 +46,10 @@
 				public function EchoGalleryBox($columnClass) {
 					echo '<div class="' . $columnClass . ' gallery-box">
 					          <a href="' . $this->Link . '">
-					              <div class="img-overlay">
-					                  <img src="' . $this->Image . '" />
-					                  <span class="caption">
-					                      <p>' . $this->Caption . '</p>
-					                  </span>
-					              </div>
+					              <figure>
+				                  	  <img class="img-responsive" src="' . $this->Image . '" />
+				                      <figcaption>' . $this->Caption . '</figcaption>
+					              </figure>
 					          </a>
 					      </div>';
 				}
