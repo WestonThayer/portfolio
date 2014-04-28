@@ -1,5 +1,6 @@
 // Compass imports
 @import "compass/css3";
+@import "../gems/animation-0.1.alpha.3/stylesheets/_animation.scss";
 
 // Bootstrap variables
 
@@ -12,3 +13,15 @@ $signature-font-family: 'IM Fell DW Pica SC', serif;
 $color-white: white;
 $color-dark: #444;
 $color-light: #dbdbdb;
+
+// Mixins
+
+// image animation
+@include keyframes(fade-in-animation) {
+	0% {
+		@include opacity(0.0);
+	}
+	100% {
+		@include opacity(1.0);
+	}
+}

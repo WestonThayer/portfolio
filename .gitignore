@@ -222,3 +222,4 @@ bower_components/
 .sass-cache/
 main.css
 *.min.js
+gems/

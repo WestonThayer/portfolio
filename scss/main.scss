@@ -59,7 +59,7 @@ p {
 }
 
 #img-me {
-
+	@include animation(fade-in-animation 1500ms 1);
 
 	@media (max-width: $screen-sm-max) {
 		width: 150px;

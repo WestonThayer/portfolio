@@ -93,6 +93,7 @@
                     background-image: url('../images/bird-menu-sprite.png');
                     background-repeat: no-repeat;
                     margin-top: 30px;
+                    @include animation(fade-in-animation 1s 1);
                 }
             }
 
