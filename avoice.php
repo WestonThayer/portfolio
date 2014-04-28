@@ -3,10 +3,7 @@
     <div class="container gallery-project">
         <div class="row">
             <div class="col-md-8">
-                <video class="img-responsive" autoplay="autoplay" loop>
-                    <source src="/images/avoice/1.mp4" type="video/mp4"/>
-                    <img src="/images/avoice/1.png" />
-                </video>
+                <img class="gfyitem" data-title=true data-autoplay=true data-controls=false data-expand=false data-id="AmusingNaturalKangaroo" />
             </div>
             <div class="col-md-4 section-hook">
                 <h1>
