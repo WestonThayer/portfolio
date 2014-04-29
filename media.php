@@ -3,22 +3,34 @@
     <div class="container gallery-project">
         <div class="row">
             <div class="col-md-8">
-                <iframe width="750" height="563" src="//www.youtube.com/embed/JfkblabFuhE?rel=0" frameborder="0" allowfullscreen></iframe>
+                <div class="flex-video widescreen">
+                    <iframe src="//player.vimeo.com/video/6260307" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
             </div>
             <div class="col-md-4 section-hook">
                 <h1>
                     <small>mixed</small>
-                    Media Portfolio
+                    Media
                 </h1>
                 <p>
-                    I love making music and videos.
+                    Digital audio and video production is fun! Or at least I think so. These are a few of my
+                    weekend creations from over the years.
+                </p>
+                <p>
+                    There's more to be found on my
+                    <a href="https://soundcloud.com/d_force" target="_blank">SoundCloud</a>
+                    and
+                    <a href="http://vimeo.com/user1590081" target="_blank">Vimeo</a>
+                    pages.
                 </p>
             </div>
         </div>
         <div class="row">
         	<div class="col-md-8">
-        		<iframe src="//player.vimeo.com/video/6260307" width="750" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        	</div>
+                <div class="flex-video widescreen">
+                    <iframe width="750" height="563" src="//www.youtube.com/embed/JfkblabFuhE?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
         <div class="row">
         	<div class="col-md-8">
