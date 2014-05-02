@@ -14,14 +14,14 @@
                     <blockquote>
                         <p>To be, or not to be, that is the question—</p>
                     </blockquote>
-                    Nearly all of Shakespear's plays feature
+                    Nearly all of Shakespeare's plays feature
                     <a href="http://en.wikipedia.org/wiki/Soliloquy" target="_blank">soliloquies</a>.
                     Did he follow a formula?
                 </p>
                 <p>
                     Using
                     <a href="http://www.ibiblio.org/xml/examples/shakespeare/" target="_blank">Jon
-                    Bosak's Shakespear in XML</a>, this app asks <em>you</em> to find out. The soliloquies
+                    Bosak's Shakespeare in XML</a>, this app asks <em>you</em> to find out. The soliloquies
                     in each play have their position and length highlighted. Re-order the list
                     to search for patterns. Do comedies always end with a big speech? Do tragedies
                     start with one?
