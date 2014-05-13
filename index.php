@@ -203,9 +203,9 @@
 					new Skill(false, 'http://blogs.msdn.com/b/seliot/archive/2011/06/07/testing-in-production-tip-it-really-happens-and-that-s-a-good-thing.aspx', 'TiP'),
 					
 					new Skill(true, '', 'Technologies'),
-					new Skill(false, 'http://en.wikipedia.org/wiki/HTML5', 'HTML5/CSS3'),
-					new Skill(false, 'http://getbootstrap.com/', 'Bootstrap'),
-					new Skill(false, 'http://sass-lang.com/', 'Sass'),
+					new Skill(false, 'http://en.wikipedia.org/wiki/HTML5', 'HTML5 + CSS3'),
+					new Skill(false, 'https://github.com/twbs/bootstrap-sass', 'Bootstrap + Sass'),
+					new Skill(false, 'http://jquery.com/', 'JavaScript + jQuery'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/Extensible_Application_Markup_Language', 'XAML'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/PHP', 'PHP'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/SQL', 'SQL'),
