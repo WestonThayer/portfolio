@@ -12,10 +12,6 @@ p {
 	color: $gray;
 }
 
-.btn {
-	border-bottom: 2px solid $btn-default-border;
-}
-
 .section-custom {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -51,6 +47,10 @@ p {
 	@media (max-width: $screen-sm-min) {
 		// less padding on small screens
 		padding-top: 0px;
+	}
+
+	.btn {
+		margin-top: 5px;
 	}
 }
 
@@ -222,6 +222,7 @@ p {
 
 .btn {
 	//font-family: $font-family-sans-serif;
+	border-radius: 0px;
 
 	.btn-icon {
 		display: inline-block;
@@ -233,16 +234,6 @@ p {
 
 	.glyphicon-envelope {
 		font-size: 15px;
-	}
-}
-
-.btn-primary {
-	background-color: $color-dark;
-	border-color: black;
-
-	&:hover {
-		background-color: $gray-light;
-		border-color: $gray;
 	}
 }
 

@@ -3,7 +3,7 @@
 	<section class="container">
 	    <div class="row">
 	    	<div class="col-sm-3">
-	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="200" height="200" />
+	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="215" height="215" />
 	        </div>
 	        <div class="col-sm-9 section-hook">
 	            <h1>
@@ -11,12 +11,10 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>
-	            	I love designing and engineering engaging apps, websites, and experiences
-	            	from end-to-end.
+	            	I'm an product designer and developer living in Seattle with over 4 years of
+	            	experience creating user-centered solutions.
 	            </h4>
-	            <a class="btn btn-default" href="#work">Work</a>
-	            <a class="btn btn-default" href="#skills">Skills</a>
-	            <a class="btn btn-default" href="#contact">Contact</a>
+	            <a class="btn btn-primary" href="mailto:me@westonthayer.com">Hire Me</a>
 	        </div>
 	    </div>
 	</section>
