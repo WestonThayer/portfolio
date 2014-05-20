@@ -196,8 +196,8 @@ p {
 		margin-top: 10px;
 
 		a {
-			margin-right: 5px;
 			margin-bottom: 8px;
+			width: 100%;
 		}
 	}
 
@@ -234,6 +234,18 @@ p {
 
 	.glyphicon-envelope {
 		font-size: 15px;
+	}
+}
+
+.btn-default {
+	color: $link-color;
+
+	&:hover {
+		color: $link-hover-color;
+	}
+
+	span {
+		color: #333333;
 	}
 }
 
