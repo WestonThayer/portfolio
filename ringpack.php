@@ -20,6 +20,9 @@
 					RingPack switches out your text ringtone each time a text is received. Each ringtone belongs
 					to a Pack of related sounds. You can download, create, and share Packs with anyone!
 				</p>
+				<p>
+					RingPack currently has <strong>17,615 active installs</strong> and <strong>161,652 downloads</strong>.
+				</p>
 	        </div>
 		</div>
 		<div class="row">
@@ -92,7 +95,10 @@
 					helped people jump right into the customization workflow.
 				</p>
 				<p>
-					RingPack currently has <strong>17,076 active installs</strong> and <strong>157,578 downloads</strong>.
+					<strong>
+						More on the blog: 
+						<a href="http://cryclops.com/2014/04/the-forgiving-user/" target="_blank">The Forgiving User</a>.
+					</strong>
 				</p>
 			</div>
 		</div>
