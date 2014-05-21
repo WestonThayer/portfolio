@@ -259,7 +259,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-6 col-md-push-3">
+			<div class="col-sm-6 col-sm-push-3">
 				<h4>
 					I'm currently searching for a new adventure. It'd be awesome if it was with you.
 				</h4>
@@ -269,16 +269,17 @@
 			</div>
 		</div>
 		<div id="contact-buttons" class="row">
-			<div class="col-sm-1 col-sm-push-4">
+			<?php $classCols = 'col-xs-3 col-sm-2 col-sm-push-2 col-md-1 col-md-push-4'; ?>
+			<div class="<?php echo $classCols ?>">
 				<a id="btn-resume" class="btn-contact" href="/images/resume.pdf" target="_blank"><div id="icon-document"><?php include('images/document.svg') ?></div>Resume</a>
 			</div>
-			<div class="col-sm-1 col-sm-push-4">
+			<div class="<?php echo $classCols ?>">
 				<a id="btn-blog" class="btn-contact" href="http://cryclops.com/" target="_blank"><div class="symbol">&#xe094;</div>Blog</a>
 			</div>
-			<div class="col-sm-1 col-sm-push-4">
+			<div class="<?php echo $classCols ?>">
 				<a id="btn-quora" class="btn-contact" href="http://www.quora.com/Weston-Thayer" target="_blank"><div class="symbol">&#xe068;</div>Quora</a>
 			</div>
-			<div class="col-sm-1 col-sm-push-4">
+			<div class="<?php echo $classCols ?>">
 				<a id="btn-linkedin" class="btn-contact" href="http://www.linkedin.com/pub/weston-thayer/92/a59/8a/" target="_blank"><div class="symbol">&#xe052;</div>LinkedIn</a>
 			</div>
 		</div>
