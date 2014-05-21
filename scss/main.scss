@@ -288,6 +288,10 @@ h1, h2, h3 {
 .btn {
 	border-radius: 0px;
 	font-weight: bold;
+
+	.btn-icon {
+		display: inline-block;
+	}
 }
 
 blockquote {
