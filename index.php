@@ -270,16 +270,16 @@
 		</div>
 		<div id="contact-buttons" class="row">
 			<div class="col-sm-1 col-sm-push-4">
-				<a class="btn-contact" href="http://cryclops.com/" target="_blank"><div class="symbol">&#xe094;</div>Blog</a>
+				<a id="btn-resume" class="btn-contact" href="/images/resume.pdf" target="_blank"><div id="icon-document"><?php include('images/document.svg') ?></div>Resume</a>
 			</div>
 			<div class="col-sm-1 col-sm-push-4">
-				<a class="btn-contact" href="/images/resume.pdf" target="_blank"><div id="icon-document"><?php include('images/document.svg') ?></div>Resume</a>
+				<a id="btn-blog" class="btn-contact" href="http://cryclops.com/" target="_blank"><div class="symbol">&#xe094;</div>Blog</a>
 			</div>
 			<div class="col-sm-1 col-sm-push-4">
-				<a class="btn-contact" href="http://www.quora.com/Weston-Thayer" target="_blank"><div class="symbol">&#xe068;</div>Quora</a>
+				<a id="btn-quora" class="btn-contact" href="http://www.quora.com/Weston-Thayer" target="_blank"><div class="symbol">&#xe068;</div>Quora</a>
 			</div>
 			<div class="col-sm-1 col-sm-push-4">
-				<a class="btn-contact" href="http://www.linkedin.com/profile/view?id=331065898" target="_blank"><div class="symbol">&#xe052;</div>LinkedIn</a>
+				<a id="btn-linkedin" class="btn-contact" href="http://www.linkedin.com/pub/weston-thayer/92/a59/8a/" target="_blank"><div class="symbol">&#xe052;</div>LinkedIn</a>
 			</div>
 		</div>
 		<div class="row">

@@ -215,10 +215,35 @@ h1, h2, h3 {
 
 	.btn-contact {
 		color: $color-light;
+		@include transition-property(color);
+		@include transition-duration(300ms);
 
 		&:hover {
 			text-decoration: none;
 		}
+	}
+
+	#btn-blog:hover {
+		color: #31dbff;
+	}
+
+	#btn-resume {	
+
+		&:hover {
+			color: #333;
+
+			svg {
+				fill: #333;
+			}
+		}
+	}
+
+	#btn-quora:hover {
+		color: #a82400;
+	}
+
+	#btn-linkedin:hover {
+		color: #1683bb;
 	}
 
 	#feather-big svg {
@@ -226,6 +251,17 @@ h1, h2, h3 {
 		margin-bottom: 50px;
 		width: 75px;
 		height: 75px;
+
+		#body {
+			@include transition-property(fill);
+			@include transition-duration(300ms);
+		}
+
+		&:hover {
+			#body {
+				fill: #333;
+			}
+		}
 	}
 
 	#icon-document svg {
