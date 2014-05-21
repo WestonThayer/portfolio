@@ -18,7 +18,6 @@
 		
 		<link rel="stylesheet" type="text/css" href="/css/main.css" />
 		
-		<link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC' rel='stylesheet' type='text/css'>
 		<link rel="icon" type="image/png" href="/favicon.png" />
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -48,15 +47,18 @@
 	        		</div>
 
 	        		<div id="navbar-collapse-1" class="collapse navbar-collapse">
+	        			<?php
+	        				$isIndex = $_SERVER['SCRIPT_NAME'] === '/index.php';
+	        			?>
 	        			<ul class="nav navbar-nav birds-3">
 	        				<li>
-	        					<a href="/" class="item1">home<span></span></a>
+	        					<a href="<?php if (!$isIndex) echo '/'; ?>#work" class="item1">work<span></span></a>
 	        				</li>
 	        				<li>
-	        					<a href="http://cryclops.com" target="_blank" class="item2">blog<span></span></a>
+	        					<a href="<?php if (!$isIndex) echo '/'; ?>#skills" class="item2">skills<span></span></a>
 	        				</li>
 	        				<li>
-	        					<a href="/images/resume.pdf" target="_blank" class="item3">resume<span></span></a>
+	        					<a href="<?php if (!$isIndex) echo '/'; ?>#contact" class="item3">contact<span></span></a>
 	        				</li>
 	        			</ul>
 	        			<ul class="nav navbar-nav birds-1">

@@ -12,6 +12,26 @@ p {
 	color: $gray;
 }
 
+h1, h2, h3 {
+	font-family: $signature-font-family
+}
+
+.symbol {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 75px;
+    margin: -25px;
+}
+
 .section-custom {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -108,9 +128,10 @@ p {
 				@include transition-property(all); // don't use 'transform', see https://github.com/chriseppstein/compass/issues/289
 	  			@include transition-duration(300ms);
 				background-color: black;//rgba(0,0,0,0.6);
-			    padding-top: 10px;
+			    padding-top: 15px;
 			    padding-left: 10px;
 			    color: $gray-lighter;
+			    font-weight: bold;
 			}
 
 			&:hover figcaption {
@@ -192,19 +213,27 @@ p {
 #contact {
 	text-align: center;
 
-	#contact-buttons {
-		margin-top: 10px;
+	.btn-contact {
+		color: $color-light;
 
-		a {
-			margin-bottom: 8px;
-			width: 100%;
+		&:hover {
+			text-decoration: none;
 		}
 	}
 
 	#feather-big svg {
-		margin-top: 50px;
-		width: 150px;
-		height: 150px;
+		margin-top: 90px;
+		margin-bottom: 50px;
+		width: 75px;
+		height: 75px;
+	}
+
+	#icon-document svg {
+		height: 35px;
+		width: 30px;
+		margin-bottom: 10px;
+		margin-top: 13px;
+		fill: $color-light;
 	}
 }
 
@@ -221,32 +250,8 @@ p {
 }
 
 .btn {
-	//font-family: $font-family-sans-serif;
 	border-radius: 0px;
-
-	.btn-icon {
-		display: inline-block;
-	}
-
-	.btn-icon-16 {
-		margin-bottom: 3px;
-	}
-
-	.glyphicon-envelope {
-		font-size: 15px;
-	}
-}
-
-.btn-default {
-	color: $link-color;
-
-	&:hover {
-		color: $link-hover-color;
-	}
-
-	span {
-		color: #333333;
-	}
+	font-weight: bold;
 }
 
 blockquote {

@@ -2,14 +2,34 @@
 @import "compass/css3";
 @import "../gems/animation-0.1.alpha.3/stylesheets/_animation.scss";
 
+// Fonts
+@include font-face("Mono Social Icons Font", font-files("/fonts/MonoSocialIconsFont-1.10.woff", "/fonts/MonoSocialIconsFont-1.10.ttf", "/fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"), "/fonts/MonoSocialIconsFont-1.10.eot", normal, normal);
+@include font-face("Quattrocento", font-files("/fonts/quattrocento-regular-webfont.woff", "/fonts/quattrocento-regular-webfont.ttf", "/fonts/quattrocento-regular-webfont.svg#quattrocentoregular"), "/fonts/quattrocento-regular-webfont.eot", normal, normal);
+@include font-face("Quattrocento Sans", font-files("/fonts/quattrocentosans-regular-webfont.woff", "/fonts/quattrocentosans-regular-webfont.ttf", "/fonts/quattrocentosans-regular-webfont.svg#quattrocento_sansregular"), "/fonts/quattrocentosans-regular-webfont.eot", normal, normal);
+@include font-face("Quattrocento Sans", font-files("/fonts/quattrocentosans-italic-webfont.woff", "/fonts/quattrocentosans-italic-webfont.ttf", "/fonts/quattrocentosans-italic-webfont.svg#quattrocento_sansitalic"), "/fonts/quattrocentosans-italic-webfont.eot", normal, italic);
+@include font-face("Quattrocento Sans", font-files("/fonts/quattrocentosans-bold-webfont.woff", "/fonts/quattrocentosans-bold-webfont.ttf", "/fonts/quattrocentosans-bold-webfont.svg#quattrocento_sansbold"), "/fonts/quattrocentosans-bold-webfont.eot", bold, normal);
+
+// Stupid Chrome font rendering fix
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Quattrocento";
+            src: url(/fonts/quattrocento-regular-webfont.svg#quattrocentoregular) format('svg');
+    }
+
+    @font-face {
+        font-family: "Quattrocento Sans";
+            src: url(/fonts/quattrocentosans-regular-webfont.svg#quattrocento_sansregular) format('svg');
+    }
+}
+
 // Bootstrap variables
 
-$font-family-base: Georgia, "Times New Roman", Times, serif;
+$font-family-base: 'Quattrocento Sans', sans-serif;
 $font-size-base: 18px;
 
 // My variables
 
-$signature-font-family: 'IM Fell DW Pica SC', serif;
+$signature-font-family: 'Quattrocento', serif;
 $color-white: white;
 $color-dark: #444;
 $color-light: #dbdbdb;

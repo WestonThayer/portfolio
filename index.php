@@ -11,7 +11,7 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>
-	            	I'm an product designer and developer living in Seattle with over 4 years of
+	            	I'm a product designer and developer living in Seattle with over 4 years of
 	            	experience creating user-centered solutions.
 	            </h4>
 	            <a class="btn btn-primary" href="#contact">Hire Me</a>
@@ -258,24 +258,35 @@
 	            </h1>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-push-3">
+				<h4>
+					I'm currently searching for a new adventure. It'd be awesome if it was with you.
+				</h4>
+				<p>
+					<a href="mailto:me@westonthayer.com">me@westonthayer.com</a>
+				</p>
+			</div>
+		</div>
 		<div id="contact-buttons" class="row">
-			<div class="col-sm-4 col-md-2 col-md-push-3">
-				<a class="btn btn-default" href="http://www.quora.com/Weston-Thayer">
-					<img class="btn-icon btn-icon-16" src="/images/quora-16px.png"/> Quora
-				</a>
+			<div class="col-sm-1 col-sm-push-4">
+				<a class="btn-contact" href="http://cryclops.com/" target="_blank"><div class="symbol">&#xe094;</div>Blog</a>
 			</div>
-			<div class="col-sm-4 col-md-2 col-md-push-3">
-				<a class="btn btn-default" href="mailto:me@westonthayer.com"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+			<div class="col-sm-1 col-sm-push-4">
+				<a class="btn-contact" href="/images/resume.pdf" target="_blank"><div id="icon-document"><?php include('images/document.svg') ?></div>Resume</a>
 			</div>
-			<div class="col-sm-4 col-md-2 col-md-push-3">
-				<a class="btn btn-default" href="http://www.linkedin.com/profile/view?id=331065898" target="_blank">
-					<img class="btn-icon btn-icon-16" src="/images/InBug-16px.png"/> LinkedIn
-				</a>
+			<div class="col-sm-1 col-sm-push-4">
+				<a class="btn-contact" href="http://www.quora.com/Weston-Thayer" target="_blank"><div class="symbol">&#xe068;</div>Quora</a>
+			</div>
+			<div class="col-sm-1 col-sm-push-4">
+				<a class="btn-contact" href="http://www.linkedin.com/profile/view?id=331065898" target="_blank"><div class="symbol">&#xe052;</div>LinkedIn</a>
 			</div>
 		</div>
 		<div class="row">
-			<div id="feather-big">
-				<?php include('images/feather.svg') ?>
+			<div class="col-md-12">
+				<a id="feather-big" href="mailto:me@westonthayer.com">
+					<?php include('images/feather.svg') ?>
+				</a>
 			</div>
 		</div>
 	</section>

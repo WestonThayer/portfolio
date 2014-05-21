@@ -54,7 +54,9 @@
 .navbar-birds {
     @extend .navbar-default;
 
-    font-family: $signature-font-family;
+    .navbar-brand {
+        font-family: $signature-font-family;
+    }
 
     @media (max-width: $screen-sm-min) {
         background-color: $color-white;
