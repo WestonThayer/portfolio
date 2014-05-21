@@ -26,6 +26,12 @@
                     <a href="http://channel9.msdn.com/Series/Windows-Azure-Cloud-Services-Tutorials/Introduction-to-Windows-Azure-Worker-Roles-Part-1" target="_blank">Azure
                     worker role</a> for push notifications from the cloud.
                 </p>
+                <p>
+                    <em>
+                        More on the blog: 
+                        <a href="http://cryclops.com/2014/04/an-evaluation-of-avoice/" target="_blank">An Evaluation of aVoice</a>.
+                    </em>
+                </p>
             </div>
         </div>
         <div class="row">
