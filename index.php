@@ -55,12 +55,12 @@
 
 			$projects = array
 			(
+				new ProjectBox('/projects/soliloquy/', '/images/soliloquy_feature.png', 'Soliloquy for Android'),
 				new ProjectBox('/projects/ringpack/', '/images/ringpack_feature.png', 'RingPack for Android'),
 				new ProjectBox('/projects/avoice/', '/images/avoice_feature.png', 'aVoice for Windows 8'),
 				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'AR with Unity3D'),
 				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
 				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
-				new ProjectBox('/projects/soliloquy/', '/images/soliloquy_feature.png', 'Soliloquy for Android'),
 				new ProjectBox('/projects/usability/', '/images/usability_feature.png', 'Usability Testing'),
 				new ProjectBox('/projects/kiteboard/', '/images/kiteboard_feature.jpg', 'Kiteboard'),
 				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java')
