@@ -16,6 +16,10 @@ h1, h2, h3 {
 	font-family: $signature-font-family
 }
 
+h1 small, h3 {
+	font-size: $font-size-heading;
+}
+
 .symbol {
     font-family: 'Mono Social Icons Font';
     -webkit-text-rendering: optimizeLegibility;
@@ -302,7 +306,7 @@ blockquote {
 .photo-credit {
 	@extend .text-right;
 	font-style: italic;
-	font-size: 14px; // Just override here
+	font-size: $font-size-detail;
 }
 
 .flex-video {

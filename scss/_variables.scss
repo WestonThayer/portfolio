@@ -22,10 +22,17 @@
     }
 }
 
+// Type Ramp
+
+$font-size-detail: 14px;
+$font-size-normal: 18px;
+$font-size-heading: 23px;
+$font-size-title: 46px;
+
 // Bootstrap variables
 
 $font-family-base: 'Quattrocento Sans', sans-serif;
-$font-size-base: 18px;
+$font-size-base: $font-size-normal;
 
 // My variables
 
