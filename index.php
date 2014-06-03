@@ -3,7 +3,7 @@
 	<section class="container">
 	    <div class="row">
 	    	<div class="col-sm-3">
-	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="210" height="210" />
+	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="200" height="200" />
 	        </div>
 	        <div class="col-sm-9 section-hook">
 	            <h1>
