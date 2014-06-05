@@ -224,7 +224,7 @@ h4 {
 	text-align: center;
 
 	.btn-contact {
-		color: $color-light;
+		color: $font-color-heading;
 		@include transition-property(color);
 		@include transition-duration(300ms);
 
@@ -237,7 +237,7 @@ h4 {
 		color: #31dbff;
 	}
 
-	#btn-resume {	
+	#btn-resume {
 
 		&:hover {
 			color: #333;
@@ -279,7 +279,7 @@ h4 {
 		width: 30px;
 		margin-bottom: 10px;
 		margin-top: 13px;
-		fill: $color-light;
+		fill: $font-color-heading;
 	}
 }
 
