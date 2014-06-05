@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<h2>Research</h2>
+				<h3>Research</h3>
 				<p>
 					<em>How can my phone feel like an extension of me?</em>
 				</p>
@@ -60,7 +60,7 @@
 				<img src="/images/ringpack/onenotewireframe.png" />
 			</div>
 			<div class="col-md-4">
-				<h2>Design</h2>
+				<h3>Design</h3>
 				<p>
 					My inspiration was
 					<a href="http://developer.android.com/reference/android/Manifest.permission.html#RECEIVE_SMS" target="_blank">Android&#39;s
@@ -80,7 +80,7 @@
 				<img src="/images/ringpack/sc1phone.png" />
 			</div>
 			<div class="col-md-4">
-				<h2>Evaluation</h2>
+				<h3>Evaluation</h3>
 				<p>
 					Initially, RingPack was going to ship with a handful of preselected tones. After testing with
 					users, it became clear that this one-size-fits-all approach would fall short. The idea of

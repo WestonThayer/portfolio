@@ -39,7 +39,7 @@
                 <img src="/images/avoice/valuemapping.png" />
             </div>
             <div class="col-md-4">
-                <h2>Priorities</h2>
+                <h3>Priorities</h3>
                 <p>
                     Google Voice has nearly the feature set of an email client. Working solo meant I needed
                     to focus only on the most important ones. After researching support forums and talking to other users, I used the
