@@ -8,10 +8,6 @@ html, body, .content {
 	height: 100%;
 }
 
-p {
-	color: $gray;
-}
-
 h1, h2, h3 {
 	font-family: $signature-font-family
 }
@@ -20,9 +16,14 @@ h1 small, h3 {
 	font-size: $font-size-heading;
 }
 
+h3 {
+	color: $font-color-normal;
+}
+
 h4 {
 	// The serif font is a bit bigger looking. Shrink it slightly
-	font-size: $font-size-heading - 2px;
+	font-size: $font-size-heading - 3px;
+	color: $font-color-title;
 }
 
 .symbol {
@@ -48,6 +49,10 @@ h4 {
 
 .section-custom-light {
 	@extend .section-custom;
+	
+	h1, h4 {
+		color: $font-color-title;
+	}
 }
 
 .section-custom-dark {
@@ -107,10 +112,6 @@ h4 {
 			font-family: $signature-font-family;
 			display: block;
 		}
-	}
-
-	h4 {
-		color: $gray;
 	}
 
 	a {
@@ -312,6 +313,7 @@ blockquote {
 	@extend .text-right;
 	font-style: italic;
 	font-size: $font-size-detail;
+	color: $font-color-detail;
 }
 
 .flex-video {

@@ -26,13 +26,19 @@
 
 $font-size-detail: 14px;
 $font-size-normal: 18px;
-$font-size-heading: 23px;
+$font-size-heading: 24px;
 $font-size-title: 46px;
+
+$font-color-detail: #999;
+$font-color-normal: #555;
+$font-color-heading: #999;
+$font-color-title: #333;
 
 // Bootstrap variables
 
 $font-family-base: 'Quattrocento Sans', sans-serif;
 $font-size-base: $font-size-normal;
+$text-color: $font-color-normal;
 
 // My variables
 
