@@ -2,10 +2,10 @@
 <div id="hello" class="section-custom-light section-custom-first">
 	<section class="container">
 	    <div class="row">
-	    	<div class="col-sm-3">
+	    	<div class="col-sm-4 col-md-3">
 	        	<img id="img-me" class="img-circle" src="/images/me.jpg" width="200" height="200" />
 	        </div>
-	        <div class="col-sm-9 section-hook">
+	        <div class="col-sm-8 col-md-9 section-hook">
 	            <h1>
 	            	<small>Hello,</small>
 	            	I'm Weston
@@ -14,7 +14,7 @@
 	            	I'm a product designer and developer living in Seattle with over 4 years of
 	            	experience creating user-centered solutions.
 	            </h4>
-	            <a class="btn btn-primary" href="#contact">Hire Me</a>
+	            <a class="btn btn-primary" href="#work">Learn More</a>
 	        </div>
 	    </div>
 	</section>
@@ -70,10 +70,10 @@
 			<?php
 				for ($i = 0; $i < count($projects); $i++) {
 					if ($i === 0) {
-						$projects[$i]->EchoGalleryBox('col-xs-12 col-sm-6 col-md-6');
+						$projects[$i]->EchoGalleryBox('col-xs-12 col-md-6');
 					}
 					else {
-						$projects[$i]->EchoGalleryBox('col-xs-12 col-sm-6 col-md-3');
+						$projects[$i]->EchoGalleryBox('col-xs-6 col-md-3');
 					}
 				}
 			?>
@@ -148,13 +148,13 @@
 					}
 
 					public function EchoListItem() {
-						echo '<li>';
+						echo '<li';
 
 						if ($this->IsHeader) {
-							echo $this->Title;
+							echo ' class="list-header">' . $this->Title;
 						}
 						else {
-							echo '<a href="' . $this->Link . '" target="_blank">' . $this->Title . '</a>';
+							echo ' class="list-item"><a href="' . $this->Link . '" target="_blank">' . $this->Title . '</a>';
 						}
 
 						echo '</li>';
@@ -228,15 +228,11 @@
 					for ($i = 0; $i < count($skills); $i++) {
 						if ($skills[$i]->IsHeader) {
 							if ($i > 0) {
+								// close the column
 								echo '</div>';
 							}
-							/*if (($i % 2) == 0) {
-								if ($i > 0) {
-									echo '</div>';
-								}
-								echo '<div class="visible-xs row">';
-							}*/
-							echo '<div class="col-xs-6 col-sm-2">';
+							
+							echo '<div class="col-xs-12 col-sm-2">';
 						}
 
 						$skills[$i]->EchoListItem();
