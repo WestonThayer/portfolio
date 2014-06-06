@@ -64,13 +64,21 @@
         background-color: $color-white;
     }
 
-    @media (min-width: $screen-sm-min) {
-        background-color: transparent;
-        border-color: transparent;
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        .navbar-header {
+            width: 33.33333%;
+        }
+    }
 
+    @media (min-width: $screen-md-min) {
         .navbar-header {
             width: 25%;
         }
+    }
+
+    @media (min-width: $screen-sm-min) {
+        background-color: transparent;
+        border-color: transparent;
 
         .birds-3 {
             width: 25%;
