@@ -134,6 +134,15 @@ h4 {
 	}
 }
 
+#work {
+	
+	@media (max-width: $screen-xs-max) {
+		.section-hook {
+			text-align: center;
+		}
+	}
+}
+
 .gallery {
 	margin-top: 10px; // Propper padding below the .section-hook
 
