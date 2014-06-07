@@ -73,7 +73,13 @@
 						$projects[$i]->EchoGalleryBox('col-xs-12 col-md-6');
 					}
 					else {
-						$projects[$i]->EchoGalleryBox('col-xs-6 col-md-3');
+						if (($i % 2 === 0)) {
+							// Even means it's on the left for small layouts
+							$projects[$i]->EchoGalleryBox('col-xs-6 col-xs-6-right col-md-3');
+						}
+						else {
+							$projects[$i]->EchoGalleryBox('col-xs-6 col-xs-6-left col-md-3');
+						}
 					}
 				}
 			?>

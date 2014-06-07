@@ -146,6 +146,17 @@ h4 {
 .gallery {
 	margin-top: 10px; // Propper padding below the .section-hook
 
+	@media (max-width: $screen-xs-max) {
+		// Phones see less padding between gallery elements
+		.col-xs-6-left {
+			padding-right: 7px;
+		}
+
+		.col-xs-6-right {
+			padding-left: 7px;
+		}
+	}
+
 	.gallery-box {
 		overflow: hidden;
 		margin-bottom: 18px;
