@@ -38,8 +38,9 @@ h4 {
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
+    display: block;
     font-size: 75px;
-    margin: -25px;
+    margin-bottom: -25px;
 }
 
 .section-custom {
@@ -293,6 +294,7 @@ h4 {
 
 	.btn-contact {
 		color: $font-color-heading;
+		display: inline-block;
 		@include transition-property(color);
 		@include transition-duration(300ms);
 
@@ -306,11 +308,41 @@ h4 {
 	}
 
 	#btn-resume {
+		display: inline-block;
+		position: relative;
+		height: 107px;
+		width: 63px;
 
-		&:hover {
-			color: #333;
+		a {
+			display: block;
+			z-index: 1000;
+			height: 107px;
+			padding-top: 82px;
+		}
+
+		#icon-document {
+			position: absolute;
+			display: block;
+			z-index: -1000;
+			top: 38px;
+			left: 16px;
 
 			svg {
+				height: 33px;
+				width: 28px;
+				fill: $font-color-heading;
+				@include transition-property(fill);
+				@include transition-duration(300ms);
+			}
+		}
+
+		&:hover {
+
+			a {
+				color: #333;
+			}
+
+			#icon-document svg {
 				fill: #333;
 			}
 		}
@@ -340,14 +372,6 @@ h4 {
 				fill: #333;
 			}
 		}
-	}
-
-	#icon-document svg {
-		height: 35px;
-		width: 30px;
-		margin-bottom: 10px;
-		margin-top: 13px;
-		fill: $font-color-heading;
 	}
 }
 
