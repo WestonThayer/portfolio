@@ -33,7 +33,7 @@
             <div class="oval-base" id="oval-3"></div>
         </div>
         <div class="content">
-        	<nav class="navbar navbar-birds">
+        	<nav id="top" class="navbar navbar-birds">
 	        	<div class="container">
 	        		<!-- Mobile display -->
 	        		<div class="navbar-header">

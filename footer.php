@@ -1,10 +1,16 @@
-			<div id="footer" class="section-custom-dark">
+			<div id="footer" class="section-custom-light">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-10 col-xs-push-1">
-							<a class="btn btn-default" href="https://github.com/Cryclops/portfolio" target="_blank">
-								<img class="btn-icon" src="/images/GitHub-Mark-32px.png"/> Source
+						<div class="col-md-12">
+							<a id="feather-big" href="mailto:me@westonthayer.com">
+								<?php include('images/feather.svg') ?>
 							</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<a href="#top">Back to top</a>
+							<div id="copyright">&copy; Weston Thayer 2014. <a href="https://github.com/Cryclops/portfolio" target="_blank">Source</a></div>
 						</div>
 					</div>
 				</div>

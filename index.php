@@ -281,13 +281,6 @@
 				<a id="btn-linkedin" class="btn-contact" href="http://www.linkedin.com/pub/weston-thayer/92/a59/8a/" target="_blank"><span class="symbol">&#xe052;</span>LinkedIn</a>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<a id="feather-big" href="mailto:me@westonthayer.com">
-					<?php include('images/feather.svg') ?>
-				</a>
-			</div>
-		</div>
 	</section>
 </div>
 <?php require_once('footer.php'); ?>
