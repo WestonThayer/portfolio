@@ -3,7 +3,7 @@
     <div class="container gallery-project">
         <div class="row">
             <div class="col-md-8">
-                <img class="gfyitem" data-title="true" data-autoplay="true" data-controls="false" data-expand="false" data-id="AmusingNaturalKangaroo" />
+                <div class="gfyitem" data-title="false" data-autoplay="true" data-controls="false" data-expand="false" data-id="AmusingNaturalKangaroo"></div>
             </div>
             <div class="col-md-4 section-hook">
                 <h1>
