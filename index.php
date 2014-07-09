@@ -263,7 +263,7 @@
 		<div class="row">
 			<div class="col-sm-6 col-sm-push-3">
 				<h4>
-					I'm currently searching for a new adventure. It'd be awesome if it was with you.
+					I'm not currently available for hire, but feel free to say hello.
 				</h4>
 				<p>
 					<a href="mailto:me@westonthayer.com">me@westonthayer.com</a>
