@@ -276,7 +276,7 @@
 					<div id="icon-document"><?php include('images/document.svg') ?></div>
 					<a class="btn-contact" href="/images/resume.pdf" target="_blank">Resume</a>
 				</div>
-				<a id="btn-blog" class="btn-contact" href="http://cryclops.com/" target="_blank"><span class="symbol">&#xe094;</span>Blog</a>
+				<a id="btn-blog" class="btn-contact" href="/blog/_site/" target="_blank"><span class="symbol">&#xe094;</span>Blog</a>
 				<a id="btn-quora" class="btn-contact" href="http://www.quora.com/Weston-Thayer" target="_blank"><span class="symbol">&#xe068;</span>Quora</a>
 				<a id="btn-linkedin" class="btn-contact" href="http://www.linkedin.com/pub/weston-thayer/92/a59/8a/" target="_blank"><span class="symbol">&#xe052;</span>LinkedIn</a>
 			</div>

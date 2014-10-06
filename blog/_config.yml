@@ -10,9 +10,10 @@ relative_permalinks: true
 title:            Weston Thayer
 tagline:          blog
 url:              http://westonthayer.com/blog/_site/
-paginate:         3
+paginate:         5
 baseurl:          /blog/_site/
 linkbaseurl:	  /blog/_site
+homebaseurl:	  /
 author:
   name:           Weston THayer
   url:            https://westonthayer.com
@@ -21,4 +22,4 @@ author:
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/Cryclops/portfolio
