@@ -14,6 +14,7 @@ paginate:         5
 baseurl:          /blog/_site/
 linkbaseurl:	  /blog/_site
 homebaseurl:	  /
+assetsurl:		  /blog/_site/public/assets/
 author:
   name:           Weston THayer
   url:            https://westonthayer.com
