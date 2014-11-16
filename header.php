@@ -63,7 +63,7 @@
 	        			</ul>
 	        			<ul class="nav navbar-nav birds-1">
 	        				<li>
-	        					<a id="logo" href="/media/"><span></span></a>
+	        					<a id="logo" href="/blog/_site/">blog<span></span></a>
 	        				</li>
 	        			</ul>
 	        		</div>
