@@ -17,6 +17,7 @@
 		<meta name="copyrite" content="Copyrite Weston Thayer 2011" />
 		
 		<link rel="stylesheet" type="text/css" href="/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="/blog/_site/public/css/syntax.css" />
 		
 		<link rel="icon" type="image/png" href="/favicon.png" />
 
