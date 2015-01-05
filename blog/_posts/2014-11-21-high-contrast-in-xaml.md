@@ -68,7 +68,7 @@ Determining a color for high contrast requires a bit of learning. If you don't h
 
 ![Windows 8.1 Control Panel for High Contrast]({{ site.assetsurl }}2014-11-22-high-contrast-in-xaml/controlpanel1.png)
 
-The user can switch to high contrast using the above settings page. They have 4 high contrast themes by default. Once they select an option, the page shows a preview of how apps will likely look. Every square on the preview can be clicked to change its value. Every square *also* directly maps to a XAML system resource.
+The user can switch to high contrast using the above settings page. They have 4 high contrast themes by default. Once they select an option, the page shows a preview of how apps will likely look. Every square on the preview can be clicked to change its value. Every square *also* directly maps to a [XAML system resource](http://msdn.microsoft.com/en-us/library/windows/apps/dn518235.aspx#SystemColor_Color_resources).
 
 ![High Contrast Mapping]({{ site.assetsurl }}2014-11-22-high-contrast-in-xaml/controlpanel-mapping.png)
 
