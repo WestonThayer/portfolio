@@ -11,7 +11,7 @@
 	            	I'm Weston
 	            </h1>
 	            <h4>
-	            	I'm a product designer and developer living in Seattle with over 4 years of
+	            	I'm a product designer and developer living in Seattle with over 5 years of
 	            	experience creating user-centered solutions.
 	            </h4>
 	            <a class="btn btn-primary" href="#work">Learn More</a>
@@ -55,14 +55,14 @@
 
 			$projects = array
 			(
-				new ProjectBox('/projects/soliloquy/', '/images/soliloquy_feature.png', 'Soliloquy for Android'),
+				new ProjectBox('/projects/word/', '/images/word_feature.png', 'Microsoft Word for Tablets'),
 				new ProjectBox('/projects/ringpack/', '/images/ringpack_feature.png', 'RingPack for Android'),
 				new ProjectBox('/projects/avoice/', '/images/avoice_feature.png', 'aVoice for Windows 8'),
 				new ProjectBox('/projects/ar/', '/images/ar_feature.jpg', 'AR with Unity3D'),
 				new ProjectBox('/projects/india/', '/images/india_feature.png', 'laXmi for Android'),
 				new ProjectBox('/projects/androidj/', '/images/androidj_feature.png', 'AndroiDJ Concept'),
 				new ProjectBox('/projects/usability/', '/images/usability_feature.png', 'Usability Testing'),
-				new ProjectBox('/projects/kiteboard/', '/images/kiteboard_feature.jpg', 'Kiteboard'),
+				new ProjectBox('/projects/soliloquy/', '/images/soliloquy_feature.png', 'Soliloquy for Android'),
 				new ProjectBox('/projects/vertigo/', '/images/vertigo_feature.png', '2D Platformer in Java')
 			);
 		?>
@@ -192,8 +192,8 @@
 					new Skill(false, 'http://www.axure.com/', 'Axure'),
 
 					new Skill(true, '', 'Platforms'),
-					new Skill(false, 'http://developer.android.com/index.html', 'Android'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/Web_development', 'Web'),
+					new Skill(false, 'http://developer.android.com/index.html', 'Android'),
 					new Skill(false, 'http://msdn.microsoft.com/en-us/windows/apps/br229512.aspx', 'Windows 8'),
 					new Skill(false, 'http://msdn.microsoft.com/en-us/library/windowsphone/develop/ff402535(v=vs.105).aspx', 'Windows Phone'),
 
@@ -204,7 +204,6 @@
 					new Skill(false, 'http://en.wikipedia.org/wiki/Inversion_of_control', 'IoC'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/Don\'t_repeat_yourself', 'DRY'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/Representational_state_transfer', 'REST'),
-					new Skill(false, 'http://blogs.msdn.com/b/seliot/archive/2011/06/07/testing-in-production-tip-it-really-happens-and-that-s-a-good-thing.aspx', 'TiP'),
 					
 					new Skill(true, '', 'Technologies'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/HTML5', 'HTML5 + CSS3'),
@@ -214,10 +213,9 @@
 					new Skill(false, 'http://en.wikipedia.org/wiki/PHP', 'PHP'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/SQL', 'SQL'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/Windows_Azure', 'Azure'),
-					new Skill(false, 'http://en.wikipedia.org/wiki/ASP.NET', 'ASP.NET'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/C_Sharp_(programming_language)', 'C#'),
-					new Skill(false, 'http://en.wikipedia.org/wiki/Java_(programming_language)', 'Java'),
 					new Skill(false, 'http://en.wikipedia.org/wiki/C++', 'C++'),
+					new Skill(false, 'http://en.wikipedia.org/wiki/Java_(programming_language)', 'Java'),
 					
 					new Skill(true, '', 'IDEs &amp; more'),
 					new Skill(false, 'http://www.visualstudio.com/', 'Visual Studio'),
